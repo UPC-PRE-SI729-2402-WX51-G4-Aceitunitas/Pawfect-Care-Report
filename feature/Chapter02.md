@@ -317,3 +317,109 @@ Le parece excelente la idea de tener una función como la mencionada en el proye
 - El 50% de los entrevistados lleva a sus mascotas al veterinario entre una y dos veces al año, generalmente por chequeos rutinarios o situaciones de salud menores. El otro 50% visita al veterinario con mayor regularidad, cada tres meses para una gata y una vez al mes para bañar a su perra. Esto sugiere que el uso de servicios veterinarios puede variar considerablemente según las necesidades específicas de la mascota. 
 - Todos los entrevistados tienen dificultades para mantener organizados los documentos médicos de sus mascotas. Uno de los participantes no recuerda dónde guardó la carpeta con la documentación médica, mientras que otro ha perdido documentos importantes como cartillas de vacunación y exámenes. 
 - El 66.7% de los entrevistados ha cambiado de veterinario alguna vez, lo que ha generado confusión sobre los productos o medicamentos utilizados en sus mascotas.
+
+## 2.3. Needfinding.
+
+El Needfinding es una metodología cualitativa centrada en captar las opiniones y sentimientos de los usuarios. Su propósito, como su nombre sugiere, es identificar, explorar, analizar, descubrir, y valorar de manera sencilla las necesidades que pueden dirigir y orientar el desarrollo y diseño de cualquier proyecto.
+
+En este proyecto, hemos optado por interactuar con posibles usuarios a través de entrevistas y cuestionarios. A continuación, se presentan diversos análisis derivados de estas entrevistas en los siguientes artefactos.
+
+### 2.3.1. User Personas.
+
+- **Segmento Objetivo 1 - Médicos Veterinarios**
+
+<img src="./assets/Chapter02/userPersona1.png" alt="User Persona 1" style="width: 600px; height: auto;" ><br>
+
+
+- **Segmento Objetivo 2 - Dueños de Mascotas**
+
+<img src="./assets/Chapter02/userPersona2.png" alt="User Persona 2" style="width: 600px; height: auto;" ><br>
+
+
+### 2.3.2. User Task Matrix.
+
+***Segmento 1: Médicos Veterinarios***
+
+|**Vanesa Gómez Suarez**|||
+| :-: | :- | :- |
+|**Actividades**|**Frecuencia**|**Importancia**|
+|Elaborar y mantener actualizadas las historias clínicas de los pacientes.|Alta|Alta|
+|Rellenar los campos requeridos en el software.|Alta|Alta|
+|Acceder y buscar los registros médicos de las mascotas.|Alta|Alta|
+|Programar y administrar citas veterinarias.|Media|Alta|
+|Guardar y organizar los documentos médicos.|Media|Media|
+|Solucionar problemas relacionados con la legibilidad y el extravío de documentos.|Media|Alta|
+|Optimizar la eficiencia en el proceso de documentación.|Media|Alta|
+|<p>Atender a los clientes de forma rápida y eficiente.</p><p></p>|Alta|Alta|
+
+***Segmento 2: Dueños de Mascotas***
+
+|**Lucerito Guzmán León**|||
+| :-: | :- | :- |
+|**Actividades**|**Frecuencia**|**Importancia**|
+|Llevar a sus mascotas al veterinario.|Alta|Alta|
+|Agendar y administrar citas veterinarias.|Alta|Alta|
+|Mantener y ordenar la documentación médica de sus mascotas.|Alta|Alta|
+|Consultar los historiales clínicos de sus mascotas.|Media|Alta|
+|Cambiar de veterinario cuando sea necesario.|Baja|Media|
+|Responder rápidamente ante emergencias médicas.|Media|Alta|
+|Guardar y respaldar la información médica en formatos digital y físico.|Alta|Alta|
+---
+
+
+
+### 2.3.3. User Journey Mapping.
+
+- **Primer segmento: Médicos Veterinarios**
+
+<br><img src="./assets/Chapter02/JourneyMap1.png" alt="Journey Map 1" style="width: 1000px; height: auto;" ><br>
+
+- **Segundo segmento: Dueños de Mascotas**
+
+<br><img src="./assets/Chapter02/JourneyMap2.png" alt="Journey Map 2" style="width: 1000px; height: auto;" ><br>
+
+### 2.3.4. Empathy Mapping.
+
+- **Primer segmento: Médicos Veterinarios**
+<br><img src="./assets/Chapter02/EmpathyMap1.png" alt="Empathy Map 1" style="width: 600px; height: auto;" ><br>
+
+- **Segundo segmento: Dueños de Mascotas**
+<br><img src="./assets/Chapter02/EmpathyMap2.png" alt="Empathy Map 2" style="width: 600px; height: auto;" ><br>
+
+### 2.3.5. As-is Scenario Mapping.
+
+- **Primer segmento: Médicos Veterinarios**
+<br><img src="./assets/Chapter02/Asis1.jpeg" alt="As Is Scenario Map 1" style="width: 800px; height: auto;" ><br>
+
+- **Segundo segmento: Dueños de Mascotas**
+<br><img src="./assets/Chapter02/Asis2.jpeg" alt="As Is Scenario Map 2" style="width: 800px; height: auto;" ><br>
+
+
+## 2.4. Ubiquitous Language.
+
+En esta sección se presenta un glosario de términos y conceptos utilizados en el dominio veterinario, específicos al área de especialidad y sector en el que se encuentra el problema y la solución. El propósito de este glosario es asegurar una comunicación clara y efectiva entre todos los miembros del equipo y los stakeholders, evitando ambigüedades. Este glosario se mantendrá actualizado a lo largo del proyecto.
+
+**Términos del Glosario**
+
+- **Clinical History (Historia Clínica):**
+  Registro detallado de la salud de un paciente veterinario, incluyendo diagnósticos, tratamientos, y observaciones previas.
+- **Diagnosis (Diagnóstico):**
+  Proceso de identificación de una enfermedad o condición en un paciente basado en la evaluación de los síntomas y pruebas.
+- **Treatment Plan (Plan de Tratamiento):**
+  Conjunto de acciones médicas recomendadas por el veterinario para tratar la enfermedad o condición del paciente.
+- **Follow-up (Seguimiento):**
+  Evaluación continua del paciente después de un tratamiento para asegurarse de que se esté recuperando adecuadamente.
+- **Preventive Care (Cuidado Preventivo):**
+  Medidas y prácticas aplicadas para prevenir enfermedades en los animales, como vacunaciones y desparasitaciones.
+- **Consultation (Consulta):**
+  Sesión en la que un veterinario examina al paciente, discute síntomas con el propietario, y proporciona un diagnóstico o plan de tratamiento.
+- **Pet Owner (Propietario de Mascota):**
+  Persona responsable del cuidado y bienestar de una mascota, y quien toma decisiones sobre su salud y tratamiento.
+- **Surgical Procedure (Procedimiento Quirúrgico):**
+  Intervención médica que requiere una operación para tratar o corregir un problema de salud en el paciente.
+- **Emergency Care (Cuidado de Emergencia):**
+  Atención veterinaria proporcionada en situaciones críticas donde la vida del paciente está en riesgo.
+- **Veterinary Clinic (Clínica Veterinaria):**
+  Establecimiento donde se brindan servicios de salud a los animales, incluyendo consultas, tratamientos y cirugías.
+
+---
