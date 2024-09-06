@@ -133,3 +133,111 @@ Para asegurar que nuestra solución esté alineada con las necesidades y expecta
 **Creemos que** que si eliminamos los campos obligatorios innecesarios y simplificamos el proceso de registro en la aplicación.
 **Sabremos** que hemos logrado nuestro objetivo cuando los usuarios experimenten una mayor satisfacción y una reducción en los errores de entrada de datos.
 **cuando** tanto veterinarios como propietarios de mascotas reporten una experiencia de usuario fluida y sin frustraciones, habremos validado que nuestra aplicación cumple con las expectativas de simplicidad y funcionalidad.
+
+#### 1.2.2.4. Lean UX Canvas.
+
+<table border>
+    <tr>
+        <td ROWSPAN=2>
+Lean UX Canvas
+</td>
+        <td ROWSPAN=2></td> 
+        <td>
+Fecha: 31/08/2024
+</td> 
+    </tr>
+    <tr>
+        <td>
+Primera iteración
+</td> 
+    </tr>
+    <tr>
+        <td ROWSPAN>
+
+**Business Problem**
+La gestión de clínicas veterinarias enfrenta desafíos significativos debido al uso de métodos manuales o sistemas desactualizados, lo que resulta en ineficiencias operativas, errores en la documentación y una experiencia insatisfactoria tanto para los veterinarios como para los propietarios de mascotas. La falta de una herramienta integral complica la administración de citas, historiales clínicos y la venta de productos veterinarios.
+</td>
+            <td ROWSPAN=2>
+
+**Solutions**
+
+- Gestión de citas.
+- Almacenamiento y visualización de historiales clínicos.
+- Notificaciones automáticas para recordatorios de vacunas y tratamientos.
+- Venta de productos veterinarios.
+- Reportes de ingresos y control de inventario.
+</td> <td ROWSPAN=2>
+
+**Business Outcomes**
+
+- Incremento de la eficiencia operativa en las clínicas veterinarias.
+- Mejora en la satisfacción del cliente con acceso rápido a la información médica.
+- Generación de ingresos adicionales a través de suscripciones premium y ventas de productos.
+- Reducción de errores y tiempos de espera en la gestión clínica.
+</td> 
+    </tr>
+    <tr>
+        <td>
+
+
+**Users**
+
+- **Segmento 1 – Médicos Veterinarios:** Clínicas de diferentes tamaños que necesitan mejorar la gestión de información médica, citas e inventarios.
+- **Segmento 2 – Dueños de Mascotas:** Propietarios que buscan una forma eficiente de gestionar la salud de sus mascotas y acceder a la información médica de manera digital.
+</td> 
+    </tr>
+    <tr>
+        <td ROWSPAN=2>
+
+**Hypotheses**
+
+- Creemos que diseñar una aplicación intuitiva para veterinarios mejorará la eficiencia en la gestión clínica.
+- Sabemos que hemos tenido éxito cuando observamos una mejora en la eficiencia operativa y una reducción en el tiempo dedicado a tareas administrativas.
+- Creemos que una plataforma que facilite el acceso a la historia clínica para los dueños será bien recibida.
+- Sabemos que nuestra solución es efectiva cuando recibimos comentarios positivos sobre la facilidad de acceso a la información médica.
+- Creemos que simplificar el proceso de registro eliminará campos innecesarios y mejorará la experiencia del usuario.
+- Sabemos que hemos logrado nuestro objetivo cuando reportan una experiencia de usuario fluida y sin frustraciones.</td>
+
+<td ROWSPAN=2>
+
+**What's the most important thing we need to learn first?**
+
+- Validar si la aplicación realmente mejora la eficiencia operativa de las clínicas veterinarias y facilita el acceso a la información médica para los dueños de mascotas.
+</td>
+
+<td>
+
+**User Outcomes & Benefits**
+
+- Reducción del tiempo en la gestión de citas y actualización de historiales.
+- Mejor organización en inventarios y productos.
+- Mejora en la relación con los clientes mediante acceso directo a la información médica.
+- Simplificación en la administración de las clínicas, reduciendo errores y tiempos de espera.
+</td> 
+    </tr>
+    <tr>
+        <td>
+
+
+**What's the least amount of work we need to do to learn the next most important?**
+
+- Desarrollar un prototipo funcional que permita a un grupo selecto de usuarios (veterinarios y propietarios de mascotas) probar las características clave de la aplicación y proporcionar retroalimentación sobre su efectividad en la mejora de la eficiencia y la satisfacción del usuario.
+
+
+</td> 
+    </tr>
+</table>
+
+## 1.3. Segmentos objetivo.
+
+Para asegurar que nuestra aplicación RideFind satisfaga las necesidades específicas de nuestros usuarios y maximice su impacto, hemos identificado dos segmentos principales. Estos segmentos reflejan las diversas necesidades y características de nuestros usuarios potenciales, permitiéndonos adaptar nuestra oferta para proporcionar un servicio eficiente y valioso tanto para quienes buscan alquilar vehículos alternativos como para quienes desean ofrecerlos en alquiler. A continuación, se describen estos segmentos en detalle.
+
+**Segmento Objetivo 1 - Usuarios que Buscan Alquilar Vehículos**
+
+Son individuos de cualquier edad que viven en áreas urbanas del Perú y buscan una solución de transporte flexible y conveniente. Utilizan el servicio de alquiler para facilitar sus desplazamientos en entornos con alta congestión vehicular. Estos usuarios están dispuestos a probar diferentes medios de transporte según sus necesidades y valoran la opción de contribuir a una movilidad más sostenible al optar por alquileres en lugar de la propiedad individual de vehículos.
+
+**Segmento Objetivo 2 - Propietarios de Vehículos Alternativos:**
+
+Son personas de cualquier edad que poseen vehículos alternativos como bicicletas, scooters, patinetes eléctricos y motos eléctricas. Residen en diferentes partes del Perú y están interesados en reducir su impacto ambiental. Estos usuarios pueden tener un vehículo que no utilizan con frecuencia y buscan oportunidades para compartirlo y obtener ingresos adicionales. Además, valoran la posibilidad de promover un estilo de vida saludable y activo.
+
+---
