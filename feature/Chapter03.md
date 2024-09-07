@@ -684,3 +684,138 @@
         </tr>
     </tbody>
 </table>
+
+## 3.3. Impact Mapping.
+
+Este Impact Map muestra cómo Pawfect Care alinea sus objetivos de negocio con los impactos deseados. Detalla los entregables específicos y las user stories que abordan estos impactos, asegurando que cada aspecto del desarrollo de la plataforma mejore la eficiencia y la experiencia del usuario.
+
+
+<br><img src="./assets/Chapter03/Impactmap.png" alt="Impact Map" style="width: 1000px; height: auto;" ><br>
+
+## 3.4. Product Backlog.
+
+Con el fin de simplificar la complejidad de las tareas, hemos utilizado la escala de Fibonacci (1/2/3/5/8) para crear nuestro product backlog.
+Historia de usuario base:
+Tomamos como referencia US06: Como usuario, quiero agendar citas para que mi mascota reciba atención veterinaria a tiempo. (Posee 3 puntos de historia).
+Asimismo, utilizamos la herramienta “Planning Poker Online” para poder votar en grupo y decidir la dificultad de cada historia de usuario, tomando como punto intermedio el User Story 06
+
+<table>
+  <thead>
+    <tr>
+      <th># Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points (1/2/3/5/8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>US01</td>
+      <td>Registro de Usuario</td>
+      <td>Como administrador, deseo permitir a los usuarios registrarse para que puedan acceder al sistema.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>US06</td>
+      <td>Agendamiento de Citas</td>
+      <td>Como usuario, deseo gestionar las citas veterinarias de mis mascotas para asegurarme de que reciban atención médica a tiempo.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>US12</td>
+      <td>Barra de navegación en la Landing Page</td>
+      <td>Como usuario, quiero un menú para ver las secciones de la aplicación.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>US13</td>
+      <td>Sección "Why Choose Us?"</td>
+      <td>Como usuario, quiero una sección que explique por qué debo elegir Pawfect Care para entender los beneficios y características de la plataforma.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>US02</td>
+      <td>Recuperación de Contraseña</td>
+      <td>Como administrador, deseo que los usuarios puedan recuperar sus contraseñas en caso de olvido </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>US05</td>
+      <td>Edición de Perfil de Mascota</td>
+      <td>Como usuario, deseo gestionar la información de mis mascotas para mantener sus datos actualizados.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>US03</td>
+      <td>Gestión de Perfiles de Usuarios</td>
+      <td>Como administrador, deseo gestionar los perfiles de los usuarios para asegurar que solo personas autorizadas tengan acceso.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>US04</td>
+      <td>Creación de Perfil de Mascota</td>
+      <td>Como usuario, deseo crear un perfil de mascota para mantener sus datos organizados.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>US07</td>
+      <td>Cancelación de Citas</td>
+      <td>Como usuario, deseo cancelar las citas veterinarias de mis mascotas cuando sea necesario.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>US08</td>
+      <td>Notificaciones de Citas</td>
+      <td>Como usuario, deseo recibir notificaciones sobre eventos importantes relacionados con las citas de mis mascotas.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>US14</td>
+      <td>	Sección de suscripciones</td>
+      <td>Como usuario, quiero una sección de suscripciones para entender las opciones de pago y los beneficios asociados.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>US15</td>
+      <td>Reseñas de clientes</td>
+      <td>Como usuario, quiero leer reseñas de otros clientes para evaluar la calidad del servicio antes de usar la plataforma.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>US099</td>
+      <td>Notificaciones de Historial Médico</td>
+      <td>Como usuario, deseo recibir notificaciones sobre actualizaciones en el historial médico de mis mascotas.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>US10</td>
+      <td>	Publicación en el Foro</td>
+      <td>Como usuario, deseo publicar en un foro comunitario para intercambiar experiencias y consejos con otros dueños de mascotas.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>US11</td>
+      <td>Moderación del Foro</td>
+      <td>Como usuario, deseo moderar el foro para asegurar que las discusiones sean respetuosas y relevantes.</td>
+      <td>8</td>
+    </tr>
+      </tbody>
+</table>
+
+---
