@@ -1,5 +1,3 @@
-
-
 # Registro de Versiones del Informe
 
 | Versión | Fecha | Autor | Descripción de la modificación |
@@ -18,6 +16,11 @@ Durante la fase de elaboración del informe, se realizaron las siguientes activi
 
 - Se organizaron reuniones para coordinar el avance de los componentes del informe y para proporcionar actualizaciones sobre los progresos del Sprint 1, que se centró en el desarrollo de la Landing Page.
 
+![Insight1](./assets/Chapter01/insight1.png)
+![Insight2](./assets/Chapter01/insight2.png)
+![Insight4](./assets/Chapter01/insight4.png)
+![Insight3](./assets/Chapter01/insight3.png)
+![Insight5](./assets/Chapter01/insight5.png)
 
 # Contenido
 ## Tabla de contenidos
@@ -119,7 +122,6 @@ Durante la fase de elaboración del informe, se realizaron las siguientes activi
 - [**Video About-the-Team**](#video-about-the-team)
 - [**Bibliografía**](#bibliografía)
 - [**Anexos**](#anexos)
-
 
 # Student Outcome
 
