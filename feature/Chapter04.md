@@ -7,3 +7,9 @@ Este enfoque enfatiza la importancia de entender a fondo el negocio para el que 
 El esquema de contexto es una herramienta de análisis que permite comprender las relaciones entre Pawfect Care y su entorno, facilitando así la identificación de posibles puntos de integración y mejora.
 
 <p align = "center"> <img  alt="Diagram Context" src="/feature/assets/Chapter04/context_diagram.png"> </p>
+
+### 4.6.2. Software Architecture Container Diagrams
+
+El diagrama de contenedores es una herramienta esencial para comprender la arquitectura de Pawfect Care y detectar posibles cuellos de botella o dependencias innecesarias.
+
+<p align = "center"> <img  alt="Container Diagram" src="/feature/assets/Chapter04/container_diagram.png"> </p>
