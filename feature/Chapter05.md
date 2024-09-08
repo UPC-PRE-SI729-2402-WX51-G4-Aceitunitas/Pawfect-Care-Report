@@ -26,11 +26,47 @@ GitHub facilitará la colaboración en equipo mediante pull requests para revisa
 En este apartado, abordaremos el despliegue de la Landing Page de Pawfect Care utilizando GitHub. A continuación, se describen los pasos para habilitar el acceso a la página de destino de Pawfect Care y se incluirán capturas de pantalla para ilustrar el proceso.
 
 #### Vista del repositorio:
-<img src="/img/rep1.png">
+<img src="/feature/assets/Chapter05/rep1.png">
 #### Vista del avance:
-<img src="/img/rep2.png">
+<img src="/feature/assets/Chapter05/rep2.png">
 #### Commits:
-<img src="/img/rep4.png">
+<img src="/feature/assets/Chapter05/rep4.png">
 #### Landing page:
-<img src="/img/rep3.png">
+<img src="/feature/assets/Chapter05/rep3.png">
 
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.1. Sprint 1
+
+#### 5.2.1.1. Sprint Planning 1
+
+#### 5.2.1.2. Sprint Backlog 1
+
+#### 5.2.1.3. Development Evidence for Sprint Review
+<img src="/feature/assets/Chapter05/devep.png">
+
+#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+<img src="/feature/assets/Chapter05/rep4.png">
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+<img src="/feature/assets/Chapter05/sprint.png">
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+<img src="/feature/assets/Chapter05/commit.png">
+
+## 5.3. Validation Interviews 
+
+### 5.3.1. Diseño de Entrrevistas
+### 5.3.2. Registro de Entrevistas
+### 5.3.3. Evaluaciones según heurísticas
+
+## 5.4. Video About-the-Product
+
+<br><br>
