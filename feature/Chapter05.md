@@ -40,7 +40,7 @@ En esta sección, detallaremos las herramientas y plataformas que hemos utilizad
 **Gestión del Código Fuente:**
 
 
-En esta sección, se detalla cómo gestionamos y supervisamos el desarrollo del código para el proyecto RideFind. Utilizamos GitHub como nuestra plataforma principal para la gestión del código fuente, complementada por Git como sistema de control de versiones. Además, seguimos el flujo de trabajo GitFlow para estructurar el desarrollo de manera eficiente.
+En esta sección, se detalla cómo gestionamos y supervisamos el desarrollo del código para el proyecto PawFect Care. Utilizamos GitHub como nuestra plataforma principal para la gestión del código fuente, complementada por Git como sistema de control de versiones. Además, seguimos el flujo de trabajo GitFlow para estructurar el desarrollo de manera eficiente.
 
 - Repositorio GitHub para nuestra Landing Page:
 <b>https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/</b>
@@ -69,10 +69,10 @@ Este enfoque estructurado con GitFlow nos permite gestionar el desarrollo del c�
 
 **Commits Conventions:**
 
-En RideFind, los commits se nombran de acuerdo con el avance y el contenido específico del trabajo realizado. No seguimos una convención rígida para los nombres de los commits; en su lugar, los desarrolladores utilizan descripciones claras y concisas para reflejar las modificaciones implementadas. Esto nos permite una mayor flexibilidad a la hora de registrar el progreso, asegurando que cada commit tenga un nombre que represente con precisión el trabajo efectuado.
+En PawFect Care, los commits se nombran de acuerdo con el avance y el contenido específico del trabajo realizado. No seguimos una convención rígida para los nombres de los commits; en su lugar, los desarrolladores utilizan descripciones claras y concisas para reflejar las modificaciones implementadas. Esto nos permite una mayor flexibilidad a la hora de registrar el progreso, asegurando que cada commit tenga un nombre que represente con precisión el trabajo efectuado.
 
 #### 5.1.3. Source Code Style Guide & Conventions.
-n RideFind hemos implementado varias convenciones de estilo para asegurar un desarrollo de código claro y consistente en distintos lenguajes y tecnologías:
+En PawFect hemos implementado varias convenciones de estilo para asegurar un desarrollo de código claro y consistente en distintos lenguajes y tecnologías:
 
 <b>HTML y CSS:</b> <br>
 
@@ -123,75 +123,79 @@ Estas convenciones nos ayudan a mantener el código organizado, legible y cohere
 
 - US01:
 
-![Gherkin1](/feature/assets/Chapter05/1.png)
+![Gherkin1](./assets/Chapter05/1.png)
 
 - US02:
 
-![Gherkin1](/feature/assets/Chapter05/2.png)
+![Gherkin2](./assets/Chapter05/2.png)
 
 - US03:
 
-![Gherkin1](/feature/assets/Chapter05/3.png)
+![Gherkin3](./assets/Chapter05/3.png)
 
 - US04:
 
-![Gherkin1](/feature/assets/Chapter05/4.png)
+![Gherkin4](./assets/Chapter05/4.png)
 
 - US05:
 
-![Gherkin1](/feature/assets/Chapter05/5.png)
+![Gherkin5](./assets/Chapter05/5.png)
 
 - US06:
 
-![Gherkin1](/feature/assets/Chapter05/6.png)
+![Gherkin6](./assets/Chapter05/6.png)
 
 - US07:
 
-![Gherkin1](/feature/assets/Chapter05/7.png)
+![Gherkin7](./assets/Chapter05/7.png)
 
 - US08:
 
-![Gherkin1](/feature/assets/Chapter05/8.png)
+![Gherkin8](./assets/Chapter05/8.png)
 
 - US09:
 
-![Gherkin1](/feature/assets/Chapter05/9.png)
+![Gherkin9](./assets/Chapter05/9.png)
 
 - US010:
 
-![Gherkin1](/feature/assets/Chapter05/10.png)
+![Gherkin10](./assets/Chapter05/10.png)
 
 - US11:
 
-![Gherkin1](/feature/assets/Chapter05/11.png)
+![Gherkin11](./assets/Chapter05/11.png)
 
 - US12:
 
-![Gherkin1](/feature/assets/Chapter05/12.png)
+![Gherkin12](./assets/Chapter05/12.png)
 
 - US13:
 
-![Gherkin1](/feature/assets/Chapter05/13.png)
+![Gherkin13](./assets/Chapter05/13.png)
 
 - US014:
 
-![Gherkin1](/feature/assets/Chapter05/14.png)
+![Gherkin14](./assets/Chapter05/14.png)
 
 - US15:
 
-![Gherkin1](/feature/assets/Chapter05/15.png)
+![Gherkin15](./assets/Chapter05/15.png)
 
 ### 5.1.4. Configuración de la implementación del software
 En este apartado, abordaremos el despliegue de la Landing Page de Pawfect Care utilizando GitHub. A continuación, se describen los pasos para habilitar el acceso a la página de destino de Pawfect Care y se incluirán capturas de pantalla para ilustrar el proceso.
 
-#### Vista del repositorio:
-<img src="/feature/assets/Chapter05/rep1.png">
-#### Vista del avance:
-<img src="/feature/assets/Chapter05/rep2.png">
-#### Commits:
-<img src="/feature/assets/Chapter05/rep4.png">
-#### Landing page:
-<img src="/feature/assets/Chapter05/rep3.png">
+1. Nos aseguramos que la configuración de GitHub Pages esté habilitada para el repositorio de la Landing Page de Pawfect Care. Para ello, accedemos a la configuración del repositorio en GitHub.<br><br>
+
+<img src="./assets/Chapter05/deploy1.jpg">
+
+2. Accdemos a Github Pages:<br><br>
+<img src="./assets/Chapter05/deploy2.jpg">
+
+3. Tras seleccionar la configuracion adecuada, GitHub Pages nos proporcionará la URL de la Landing Page de Pawfect Care, la cual podremos compartir y acceder públicamente.<br><br>
+<img src="./assets/Chapter05/rep3.png">
+
+Enlace a la Landing Page de Pawfect Care:<br>
+https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/ 
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -199,66 +203,153 @@ En este apartado, abordaremos el despliegue de la Landing Page de Pawfect Care u
 
 #### 5.2.1.1. Sprint Planning 1
 
-Sprint 1 - Planificación
-Sprint Planning Background
-
-Date: 2024-09-07
-Time: 06:20 PM
-Location: Virtual (Google Meet)
-Prepared By: Gutiérrez García, José Eduardo.
-Attendees: Bastidas Bastidas, Diego Martín / Chávez Uribe, Ario Joel / Pérez García, David Alexander / Zúniga Calle, Sebastián Gabriel
-Sprint n – 1 Review Summary En el Sprint anterior, se completó la Landing Page de Pawfect Care, con el menú de navegación y las secciones principales. Se recibió retroalimentación positiva sobre la claridad de la navegación y la presentación general, pero se identificaron áreas de mejora en términos de contenido de la página de inicio.
-
-Sprint n – 1 Retrospective Summary El equipo destacó la eficiencia en la creación de la Landing Page, pero señaló que hubo algunos retrasos debido a la falta de claridad en los requerimientos iniciales. Se discutió la necesidad de definir más claramente los criterios de aceptación y los detalles del contenido antes del inicio del desarrollo.
-
-Sprint Goal Desarrollar e implementar las secciones clave de la Landing Page para que los usuarios puedan explorar las características principales de Pawfect Care y entender los beneficios del servicio.
-
-Sprint n Velocity El equipo ha establecido una capacidad de 8 Story Points para este Sprint, basada en la experiencia y la carga de trabajo estimada.
-
-Sum of Story Points La suma de los Story Points para los User Stories seleccionados en este Sprint es 8.
-
-User Stories para Sprint 1
-US12 - Barra de navegación en la Landing Page
-
-Descripción: Como usuario, quiero un menú para ver las secciones de la aplicación.
-Story Points: 3
-US13 - Sección "Why Choose Us?"
-
-Descripción: Como usuario, quiero una sección que explique por qué debo elegir Pawfect Care para entender los beneficios y características de la plataforma.
-Story Points: 3
-US14 - Sección de suscripciones
-
-Descripción: Como usuario, quiero una sección de suscripciones para entender las opciones de pago y los beneficios asociados a cada nivel de suscripción.
-Story Points: 2
-US15 - Reseñas de clientes
-
-Descripción: Como usuario, quiero leer reseñas de otros clientes para evaluar la confiabilidad y calidad del servicio antes de usar la plataforma.
-Story Points: 2
-Nota: Los Story Points asignados reflejan la complejidad y el esfuerzo estimado para completar cada User Story en el Sprint 1.
-
-Este enfoque asegura que el equipo se concentre en las partes esenciales de la Landing Page, permitiendo que los usuarios exploren la plataforma de manera efectiva.
+<table>
+  <tr>
+    <th> Sprint # </th>
+    <th> Sprint 1 </th>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2"> Sprint Planning Background </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Date </td>
+    <td> 09/07/2024 </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Time </td>
+    <td> 19:00 horas (GMT-5) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Location </td>
+    <td> Virtual (Google Meet) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Prepared By </td>
+    <td> Gutierrez Garcia, Jose Eduardo </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+    <td>
+      Bastidas Bastidas, Diego Martin<br>
+      Chavez Uribe, Ario Joel<br>
+      Gutierrez Garcia, Jose Eduardo<br>
+      Perez Garcia, David Alexander<br>
+      Zuniga Calle, Sebastian Gabriel
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
+    <td> Al este ser nuestro primer sprint de desarrollo no existe un review summary del sprint </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+    <td> Ya que es nuestro primer sprint aún no identificamos ningun plane de mejora. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2"> Sprint Goal & User Stories </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Goal </td>
+    <td> Desarrollar e implementar las secciones clave de la Landing Page para que los usuarios puedan explorar las características principales de Pawfect Care y entender los beneficios del servicio. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Velocity </td>
+    <td> <strong>8 </strong><br> El equipo ha establecido una capacidad de 8 Story Points para este Sprint, basada en la experiencia y la carga de trabajo estimada. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sum of Story Points </td>
+    <td> 8 </td>
+  </tr>
+</table>
 
 
 #### 5.2.1.2. Sprint Backlog 1
 
+| id   | Title                  | Id  | Title                                                    | Description                                                                                                   | Estimations(Hours) | Assigned To   | Status(To-do /InProcess/ToReview/Done) |
+| ---- | ---------------------- | --- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------ | ------------- | -------------------------------------- |
+| US12 | Barra de navegación en la Landing Page     | TS01 |Barra de navegación en la Landing Page (Desarrollado en HTML, CSS y JS).| Implementación del header y la barra de navegación, desarrollados en HTML, CSS y JS con diseño responsive. | 8                  | Diego | Done                                   |
+| US13 | Sección "Why Choose Us?"    | TS02 | Sección "Why Choose Us?" (Desarrollado en HTML, CSS y JS).|Implementación de la sección "Why Choose Us", con diseño responsive y optimización en HTML, CSS y JS. | 6                | David | Done                                   |
+| HU03 | Sección de suscripciones           | TS03 | Sección de suscripciones (Desarrollado en HTML, CSS y JS).| Desarrollo de la sección de suscripciones, con integración de opciones de pago, en HTML, CSS y JS.           | 4                 | Jose   | Done                                   |
+| H04 | Reseñas de clientes | TS04 | Reseñas de clientes (Desarrollado en HTML, CSS y JS).| Implementación de la sección de reseñas de clientes, con diseño responsive en HTML, CSS y JS.| 4 | Ario & Gabriel | Done
+
+Este enfoque asegura que el equipo se concentre en las partes esenciales de la Landing Page, permitiendo que los usuarios exploren la plataforma de manera efectiva.
+
 #### 5.2.1.3. Development Evidence for Sprint Review
-<img src="/feature/assets/Chapter05/devep.png">
+
+| Repository | Branch | Commit Id | Commit <br>Message | Commit <br>Message Body | Commited <br>on (Date) |
+|:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
+| [PawFect Care <br>Landing Page](https://github.com/UPC-PRE-SI729-2402-WX51-G4-Aceitunitas/Pawfect-Care-Report) | main | b342095| Create index.html |  | 09/07/2024 |
+| Landing | feat/section-home | e352819| feat: added/section-home |  | 09/07/2024 |
+| Landing | feat/section-subscription | 5e84a90 | feat: added Section subscription |  | 09/07/2024 |
+| Landing | feat/section-subscription | faf615f | feat: complete Section subscription |  | 09/07/2024|
+| Landing | feat/section-review | 2b26403 | Add: feat: added contact, review and footer |  | 09/07/2024 |
+| Landing | feat/section-typography | a1fe77e | feat: typography changed |  | 09/07/2024 |
+| Landing | main| 2f9452b | feat: landing page deployment|  | 09/07/2024 |
+
+
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
+Durante este sprint, hemos llevado a cabo las pruebas de aceptación utilizando la herramienta Gherkin. Puedes encontrar los escenarios de estas pruebas dando click aqui: https://github.com/UPC-PRE-SI729-2402-WX51-G4-Aceitunitas/PawFect-care-Acceptance-Tests
+
+| Repository | Branch | Commit Id | Commit <br>Message | Commit <br>Message Body | Commited <br>on (Date) |
+|:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
+| PawFect Care <br> Acceptance Tests | main | 4bbda94 | Initial commit |  | 09/07/2024 |
+|   | main | 66c33e5 | feat: added acceptance tests |  | 09/07/2024 |
+|   | main | 91e4297 | feat: added images |  | 09/07/2024 |
+
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
+En esta entrega, el equipo PawFect Care ha logrado completar con éxito la creación y el deployment de la Landing Page.
 
-<img src="/feature/assets/Chapter05/rep3.png">
+Enlace del deployment de la Landing Page: [https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/](https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/)
+
+Sección de header donde se encuentra el menu de navegación principal y el Banner donde se muestra un mensaje con una imagen acerca de PawFect Care:
+
+
+Sección para saber que ofrecemos en nuestra plataforma:
+
+<img src="./assets/Chapter05/rep3.png">
+
+Seccion de ventajas
+
+<img src="./assets/Chapter05/land1.png">
+
+Sección de ventajas 2
+
+<img src="./assets/Chapter05/land2.png">
+
+Sección para ver las subscripciones que ofrecemos:
+
+<img src="./assets/Chapter05/land3.png">
+
+Sección de reseñas de clientes:
+
+<img src="./assets/Chapter05/land4.png">
+
+Sección de contacto:
+
+<img src="./assets/Chapter05/land5.png">
+
+Sección de footer:
+
+<img src="./assets/Chapter05/land6.png">
+
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+En esta entrega, nos enfocamos en Landing page, por lo que no fue necesario ningún servicio adicional.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-<img src="/feature/assets/Chapter05/sprint.png">
+En este caso se uso GitHub Pages, para desplegar la Landing page, el cual nos sirvio para, a partir de un código en un repositorio poder desplegar la página. Enlace de la landing page: https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/
+
+<img src="./assets/Chapter05/sprint.png">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+Para llevar a cabo este proyecto se usaron distintas herramientas como Visual Studio Code; junto con manejo de versiones en Git. En este caso se dividio la landing page mostrada anteriormente en sectores, a partir de esto cada uno presentó su parte y luego un miembro juntó las partes para finalmente tener el resultado deseado.
 
-<img src="/feature/assets/Chapter05/commit.png">
+<img src="./assets/Chapter05/commit.png">
+
 
 ## Conclusiones
 
@@ -270,11 +361,11 @@ Este enfoque asegura que el equipo se concentre en las partes esenciales de la L
 
 ## Bibliografía
 
-- Banco Mundial. (2020). _Peru: Better transport for Lima to mitigate climate change._ World Bank. https://www.bancomundial.org/es/results/2013/04/24/Peru-better-transport-for-Lima-to-mitigate-climate-change
+- Sedano, L. (2024). _Manual para la gestión eficaz de clínicas veterinarias: Estrategias administrativas y organizativas._ Recuperado de https://puntomedic.cl/blogs/manuales-y-guias/manual-para-la-gestion-eficaz-de-clinicas-veterinarias-estrategias-administrativas-y-organizativas 
 
-- Universidad de Nueva York. (2019). _Analyzing traffic management issues in Lima, Peru._ New York University. https://wagner.nyu.edu/education/capstone/projects/analyzing-traffic-management-issues-lima-peru-0
+- BioSystems S.A. (s.f.). _Guía de buenas prácticas en veterinaria._ Barcelona, España: ioSystems S.A. Recuperado de https://covetrioja.org/wp-content/uploads/2021/10/VET_GuiaBuenasPracticas_ESP.pdf 
 
-- Conexión Esan. (2019, junio 6). _Scooters eléctricos: ¿una solución ecosostenible al caótico tráfico?._ ESAN. https://www.esan.edu.pe/conexion/blog/scooters-electricos-una-solucion-ecosostenible-al-caotico-trafico
+
 
 ## Anexos
 
@@ -295,6 +386,9 @@ Entrevistas Dueños de Mascotas:<br>
 
 - https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EZguwL4OXjdNkBzBDBzk7_IBxOR3aJXNCJtxhTOVihRx2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YgjxMN
 
+
+Video de muestra del prototipo:<br>
+- https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/EQvCW-J5AvNMp7V0LnzxwWgB1LRddvYi7j22x7tsRPO17g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hd15Xj
 
 **Anexo 2:**
 
