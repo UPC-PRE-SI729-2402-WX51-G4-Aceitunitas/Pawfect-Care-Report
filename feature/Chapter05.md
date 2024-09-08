@@ -399,7 +399,7 @@ https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Pag
 **Anexo 3:**
 
 Presentación del Proyecto:<br> 
-https://www.canva.com/design/DAGQH4YoDe8/bVXB2TFt09VzzVCTdg5aCQ/edit?utm_content=DAGQH4YoDe8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+https://www.canva.com/design/DAGQLjUy_gQ/8tnT5faHRnI64wbnC4sIEQ/edit?utm_content=DAGQLjUy_gQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
 
 **Anexo 4:**
 
