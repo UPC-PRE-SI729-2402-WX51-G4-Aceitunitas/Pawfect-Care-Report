@@ -14,3 +14,8 @@ JavaScript: Incorporaremos JavaScript para añadir interactividad a la página w
 El uso de GitHub para Pawfect Care asegura una gestión eficaz del código fuente que fomentará la colaboración entre los miembros del equipo, y proporciona herramientas para la automatización y seguridad del proceso de desarrollo. Estas características son esenciales para garantizar el éxito y la calidad del proyecto a lo largo de su realización.
 
 Link del repositorio: 
+
+### 5.1.2. Source Code Management
+Para Pawfect Care, utilizaremos el enfoque Gitflow con GitHub para gestionar el desarrollo del proyecto. Emplearemos dos ramas principales: main, que contendrá el código de producción estable, y gh-pages, para publicar la página web en GitHub Pages. La rama develop servirá como base para integrar nuevas características y correcciones, mientras que las ramas feature/ se usarán para desarrollar nuevas funcionalidades, y las ramas hotfix/ para solucionar errores críticos en producción. Las ramas release/ se utilizarán para preparar nuevas versiones antes de su liberación.
+
+GitHub facilitará la colaboración en equipo mediante pull requests para revisar y aprobar cambios, y issues para gestionar tareas y errores. Además, GitHub Pages permitirá la visualización de una versión de ejemplo de la aplicación. Esta estructura garantiza un desarrollo organizado, seguimiento efectivo del progreso y una integración continua de cambios, mejorando la eficiencia y calidad del proyecto.
