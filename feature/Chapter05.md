@@ -1,26 +1,145 @@
-# Capítulo V: Product Implementation, Validation & Deployment
-## 5.1. Software Configuration Management
-Esta guía define las decisiones y acuerdos fundamentales para el desarrollo, mantenimiento y despliegue de la aplicación Pawfect Care, que gestiona una veterinaria y la visualización de historiales clínicos. El objetivo es asegurar la calidad, eficiencia y coherencia a lo largo del desarrollo de nuestro proyecto.
+## Capítulo V: Product Implementation, Validation & Deployment
+### 5.1. Software Configuration Management.
+#### 5.1.1. Software Development Environment Configuration.
+En esta sección, detallaremos las herramientas y plataformas que hemos utilizado como equipo para la realización de nuestro startup. Estas herramientas son esenciales para el desarrollo, la colaboración y la gestión del proyecto. A continuación, se presenta un resumen de cada una de las herramientas utilizadas:
 
-### 5.1.1. Software Development Environment Configuration
-Visual Studio Code: Escogimos Visual Studio Code como nuestra herramienta para el desarrollo web. Este editor de código ofrece un entorno capaz para manejar nuestros archivos y proyectos de manera eficiente.
+- **GitHub**
 
-HTML: Para definir la estructura básica de las páginas web de Pawfect Care utilizaremos este lenguaje ya que, nos permite construir la estructura del contenido, como encabezados, párrafos, formularios y enlaces, asegurando que nuestra página web tenga una base sólida y estructura coherente para su comprensión.
+    **Descripción:** GitHub es una plataforma de alojamiento de código fuente y colaboración basada en Git. Nos permite gestionar el código del proyecto, realizar revisiones de código, y colaborar de manera eficiente con nuestro equipo.<br>
+    **Uso:** Se utilizó para el versionado del código, gestión de ramas y pull requests, así como para la documentación del proyecto.
 
-CSS: Aplicaremos CSS para mejorar el aspecto visual de nuestras páginas web. CSS nos proporciona la capacidad de seleccionar colores, fuentes, y estilos, permitiéndonos personalizar el diseño y la presentación de la página de acuerdo con nuestras necesidades y preferencias. De modo que la interfaz de usuario sea atractiva y coherente con la identidad visual de Pawfect Care.
+- **Git**
 
-JavaScript: Incorporaremos JavaScript para añadir interactividad a la página web. Esto incluirá elementos dinámicos como botones con efectos, videos multimedia, animaciones, y otras características interactivas que mejorarán la experiencia del usuario y la funcionalidad general de la página.
+    **Descripción:** Git es un sistema de control de versiones distribuido que facilita la gestión de cambios en el código fuente.<br> **Uso:** Se empleó para realizar commits, push y pull de cambios, así como para la gestión de ramas, permitiendo una colaboración fluida y eficiente en el desarrollo del proyecto.
 
-El uso de GitHub para Pawfect Care asegura una gestión eficaz del código fuente que fomentará la colaboración entre los miembros del equipo, y proporciona herramientas para la automatización y seguridad del proceso de desarrollo. Estas características son esenciales para garantizar el éxito y la calidad del proyecto a lo largo de su realización.
+- **Canva**
 
-Link del repositorio: 
+    **Descripción:** Canva es una herramienta de diseño gráfico en línea que permite crear gráficos y elementos visuales de manera intuitiva.<br> **Uso:** Se utilizó para diseñar gráficos y elementos visuales para la landing page del proyecto, incluyendo banners, íconos y otros elementos de diseño que mejoran la presentación visual de la aplicación.
 
-### 5.1.2. Source Code Management
-Para Pawfect Care, utilizaremos el enfoque Gitflow con GitHub para gestionar el desarrollo del proyecto. Emplearemos dos ramas principales: main, que contendrá el código de producción estable, y gh-pages, para publicar la página web en GitHub Pages. La rama develop servirá como base para integrar nuevas características y correcciones, mientras que las ramas feature/ se usarán para desarrollar nuevas funcionalidades, y las ramas hotfix/ para solucionar errores críticos en producción. Las ramas release/ se utilizarán para preparar nuevas versiones antes de su liberación.
+- **Visual Studio Code**
 
-GitHub facilitará la colaboración en equipo mediante pull requests para revisar y aprobar cambios, y issues para gestionar tareas y errores. Además, GitHub Pages permitirá la visualización de una versión de ejemplo de la aplicación. Esta estructura garantiza un desarrollo organizado, seguimiento efectivo del progreso y una integración continua de cambios, mejorando la eficiencia y calidad del proyecto.
+    **Descripción:** Visual Studio Code (VS Code) es un editor de código fuente ligero y extensible que soporta una amplia variedad de lenguajes de programación.<br> **Uso:** Se utilizó como el principal editor de código para escribir y editar el código del proyecto, aprovechando sus extensiones para mejorar la productividad y facilitar el desarrollo.
 
-### 5.1.3. Source Code Style Guide & Conventions
+- **WhatsApp**
+
+    **Descripción:** WhatsApp es una aplicación de mensajería instantánea que facilita la comunicación rápida y efectiva.<br> **Uso:** Se empleó para la comunicación diaria entre los miembros del equipo, coordinando tareas, resolviendo problemas y organizando reuniones informales.
+
+- **Google Meet**
+
+    **Descripción:** Google Meet es una herramienta de videoconferencia que permite realizar reuniones virtuales con facilidad.<br> **Uso:** Se utilizó para llevar a cabo reuniones virtuales de equipo, facilitando discusiones en tiempo real y presentaciones de avances del proyecto a los stakeholders y al equipo.
+
+- **Figma**
+
+    **Descripción:** Figma es una herramienta de diseño colaborativo en línea que permite crear y prototipar interfaces de usuario.<br> **Uso:** Se empleó para el diseño de interfaces y prototipos del proyecto, permitiendo la colaboración en tiempo real entre diseñadores y desarrolladores para ajustar y revisar el diseño de la aplicación.
+
+
+<br></br>
+
+#### 5.1.2. Source Code Management.
+
+**Gestión del Código Fuente:**
+
+
+En esta sección, se detalla cómo gestionamos y supervisamos el desarrollo del código para el proyecto RideFind. Utilizamos GitHub como nuestra plataforma principal para la gestión del código fuente, complementada por Git como sistema de control de versiones. Además, seguimos el flujo de trabajo GitFlow para estructurar el desarrollo de manera eficiente.
+
+- Repositorio GitHub para nuestra Landing Page:
+<b>https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/</b>
+
+
+**Ramas Principales:**
+- **main:** Esta rama, a menudo llamada "master", contiene la versión más estable y final del proyecto, lista para ser desplegada en producción. Los cambios integrados en esta rama han pasado todas las pruebas y revisiones necesarias, y se consideran completamente preparados para su lanzamiento.
+
+- **develop:** La rama develop es el punto central de integración para las nuevas funcionalidades y mejoras en desarrollo. Las características y correcciones se fusionan en esta rama, donde se realizan pruebas adicionales antes de su eventual integración en la rama main.
+
+**Ramas Auxiliares:**
+
+- **releases:** Las ramas de tipo releases se crean para preparar nuevas versiones del proyecto. En estas ramas se llevan a cabo las pruebas finales y se corrigen errores menores antes del lanzamiento oficial. Una vez que una versión ha sido validada, los cambios se integran en la rama develop para futuros desarrollos y luego se fusionan en la rama main para su despliegue.
+
+**Uso de GitFlow:**
+
+- **Feature Branches:** Se utilizan ramas de características para desarrollar nuevas funcionalidades. Estas ramas se crean a partir de la rama develop y, una vez que se completa el desarrollo y se aprueban las revisiones, se fusionan nuevamente en la rama develop.
+
+- **Bugfix Branches:** Para solucionar errores que necesitan ser corregidos antes de la siguiente versión, se utilizan ramas de corrección de errores. Estas ramas se crean a partir de la rama develop o, en casos críticos, desde la rama main.
+
+- **Hotfix Branches:** Se emplean para abordar errores críticos que requieren una solución urgente en producción. Estas ramas se crean a partir de la rama main, y una vez que el problema se resuelve, los cambios se fusionan tanto en la rama main como en la rama develop.
+
+Este enfoque estructurado con GitFlow nos permite gestionar el desarrollo del código de manera eficiente, facilitando la integración de nuevas características, la corrección de errores y la preparación de versiones estables para producción.
+
+
+
+**Commits Conventions:**
+
+En RideFind, los commits se nombran de acuerdo con el avance y el contenido específico del trabajo realizado. No seguimos una convención rígida para los nombres de los commits; en su lugar, los desarrolladores utilizan descripciones claras y concisas para reflejar las modificaciones implementadas. Esto nos permite una mayor flexibilidad a la hora de registrar el progreso, asegurando que cada commit tenga un nombre que represente con precisión el trabajo efectuado.
+
+#### 5.1.3. Source Code Style Guide & Conventions.
+n RideFind hemos implementado varias convenciones de estilo para asegurar un desarrollo de código claro y consistente en distintos lenguajes y tecnologías:
+
+<b>HTML y CSS:</b> <br>
+
+1. El tipo de documento se declara al inicio del archivo con `<!DOCTYPE html>`.
+
+2. Se añaden los meta tags necesarios.
+
+3. La etiqueta `<title>` se incluye dentro del bloque `<head>`.
+
+4. Usamos una indentación de dos espacios.
+
+5. Se escriben en minúsculas los nombres de los elementos HTML, atributos, propiedades, valores y selectores CSS.
+
+6. Los atributos de los elementos HTML siempre están entre comillas.
+
+7. Cada elemento HTML debe contar con su etiqueta de cierre.
+
+8. Se evita escribir líneas de código demasiado largas.
+
+9. Para las imágenes, se especifican tanto el ancho y alto como el texto alternativo.
+
+<b>JavaScript</b>
+
+1. Cada línea de código termina con un punto y coma.
+
+2. Las variables y funciones siguen la convención de CamelCase.
+
+3. Las cadenas de texto (strings) se colocan entre comillas simples.
+
+4. La indentación es de 2 espacios.
+
+5. Se utiliza preferentemente let y const en lugar de var para declarar variables.
+
+6. Gherkin (Convenciones de Gherkin para Especificaciones Legibles)
+
+7. Se utilizan los términos "Given", "When", "Then" y "And" para definir los pasos del escenario.
+
+8. Los pasos que comienzan con "And" se indentan.
+
+9. Se deja una línea en blanco entre los pasos.
+
+10. Los parámetros se colocan entre comillas simples.
+
+11. Se separan los escenarios con un comentario y dos líneas en blanco.
+
+
+Estas convenciones nos ayudan a mantener el código organizado, legible y coherente a lo largo del proyecto.
+
+- US01:
+
+![Gherkin1](img/Chapter05/feature01.png)
+
+- US02:
+
+![Gherkin2](img/Chapter05/feature02.png)
+
+- US03:
+
+![Gherkin3](img/Chapter05/feature03.png)
+
+- US04:
+
+![Gherkin4](img/Chapter05/feature04.png)
+
+- US05:
+
+![Gherkin5](img/Chapter05/feature05.png)
 
 ### 5.1.4. Configuración de la implementación del software
 En este apartado, abordaremos el despliegue de la Landing Page de Pawfect Care utilizando GitHub. A continuación, se describen los pasos para habilitar el acceso a la página de destino de Pawfect Care y se incluirán capturas de pantalla para ilustrar el proceso.
