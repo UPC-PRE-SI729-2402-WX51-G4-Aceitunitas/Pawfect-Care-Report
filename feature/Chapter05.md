@@ -123,23 +123,63 @@ Estas convenciones nos ayudan a mantener el código organizado, legible y cohere
 
 - US01:
 
-![Gherkin1](img/Chapter05/feature01.png)
+![Gherkin1](/feature/assets/Chapter05/1.png)
 
 - US02:
 
-![Gherkin2](img/Chapter05/feature02.png)
+![Gherkin1](/feature/assets/Chapter05/2.png)
 
 - US03:
 
-![Gherkin3](img/Chapter05/feature03.png)
+![Gherkin1](/feature/assets/Chapter05/3.png)
 
 - US04:
 
-![Gherkin4](img/Chapter05/feature04.png)
+![Gherkin1](/feature/assets/Chapter05/4.png)
 
 - US05:
 
-![Gherkin5](img/Chapter05/feature05.png)
+![Gherkin1](/feature/assets/Chapter05/5.png)
+
+- US06:
+
+![Gherkin1](/feature/assets/Chapter05/6.png)
+
+- US07:
+
+![Gherkin1](/feature/assets/Chapter05/7.png)
+
+- US08:
+
+![Gherkin1](/feature/assets/Chapter05/8.png)
+
+- US09:
+
+![Gherkin1](/feature/assets/Chapter05/9.png)
+
+- US010:
+
+![Gherkin1](/feature/assets/Chapter05/10.png)
+
+- US11:
+
+![Gherkin1](/feature/assets/Chapter05/11.png)
+
+- US12:
+
+![Gherkin1](/feature/assets/Chapter05/12.png)
+
+- US13:
+
+![Gherkin1](/feature/assets/Chapter05/13.png)
+
+- US014:
+
+![Gherkin1](/feature/assets/Chapter05/14.png)
+
+- US15:
+
+![Gherkin1](/feature/assets/Chapter05/15.png)
 
 ### 5.1.4. Configuración de la implementación del software
 En este apartado, abordaremos el despliegue de la Landing Page de Pawfect Care utilizando GitHub. A continuación, se describen los pasos para habilitar el acceso a la página de destino de Pawfect Care y se incluirán capturas de pantalla para ilustrar el proceso.
