@@ -32,7 +32,7 @@ En esta parte, exploramos la arquitectura interna del sistema, mostrando cómo l
 
 ### 4.7.1. Class Diagrams.
 
-<p align = "center"> <img  alt="Component Diagram" src="/feature/assets/Chapter04/uml_pawfectcare.png"> </p>
+<p align = "center"> <img  alt="Class Diagram" src="/feature/assets/Chapter04/uml_pawfectcare.png"> </p>
 
 ### 4.7.2. Class Dictionary.
 
@@ -191,3 +191,9 @@ A continuación se presenta el código en formato markdown con las clases, atrib
 | scheduleAppointment(Appointment) | void          | Programa una nueva cita.                     |
 | getAppointmentById(long id)    | Appointment      | Obtiene una cita por su ID.                  |
 | getAllAppointments()           | List<Appointment>| Obtiene todas las citas registradas.         |
+
+## 4.8. Database Design.
+
+Decidimos emplear MySQL como sistema gestor de bases de datos, administrado a través de MySQL Workbench. Esta decisión se fundamenta en la familiaridad del equipo con el lenguaje SQL y en la capacidad de la herramienta para satisfacer las demandas de nuestro proyecto.
+
+<p align = "center"> <img  alt="ERD Diagram" src="/feature/assets/Chapter04/erd_pawfectcare.png"> </p>
