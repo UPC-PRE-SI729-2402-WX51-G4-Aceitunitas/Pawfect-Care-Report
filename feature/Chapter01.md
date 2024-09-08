@@ -230,14 +230,14 @@ La gestión de clínicas veterinarias enfrenta desafíos significativos debido a
 
 ## 1.3. Segmentos objetivo.
 
-Para asegurar que nuestra aplicación RideFind satisfaga las necesidades específicas de nuestros usuarios y maximice su impacto, hemos identificado dos segmentos principales. Estos segmentos reflejan las diversas necesidades y características de nuestros usuarios potenciales, permitiéndonos adaptar nuestra oferta para proporcionar un servicio eficiente y valioso tanto para quienes buscan alquilar vehículos alternativos como para quienes desean ofrecerlos en alquiler. A continuación, se describen estos segmentos en detalle.
+Para asegurar el éxito de Pawfect Care, hemos identificado dos segmentos clave que serán el foco principal de nuestras estrategias de desarrollo y marketing. Estos segmentos representan a nuestros usuarios ideales y nos permitirán adaptar nuestras funcionalidades y servicios a sus necesidades específicas, maximizando así el impacto de la plataforma.
 
-**Segmento Objetivo 1 - Usuarios que Buscan Alquilar Vehículos**
+**Segmento Objetivo 1 - Clínicas Veterinarias**
 
-Son individuos de cualquier edad que viven en áreas urbanas del Perú y buscan una solución de transporte flexible y conveniente. Utilizan el servicio de alquiler para facilitar sus desplazamientos en entornos con alta congestión vehicular. Estos usuarios están dispuestos a probar diferentes medios de transporte según sus necesidades y valoran la opción de contribuir a una movilidad más sostenible al optar por alquileres en lugar de la propiedad individual de vehículos.
+El primer segmento objetivo incluye a las clínicas veterinarias de diversos tamaños, desde pequeñas clínicas independientes hasta grandes centros especializados con múltiples profesionales. Pawfect Care les ofrece una plataforma que simplifica la gestión interna de sus operaciones, permitiendo una mayor eficiencia en la programación de citas, gestión de historiales médicos y la comunicación con los dueños de las mascotas. Estas clínicas buscan una herramienta que facilite el acceso a información clínica y mejore la administración de sus recursos, todo bajo una interfaz intuitiva y accesible. El valor de Pawfect Care radica en su capacidad para optimizar procesos, lo que se traduce en un mejor servicio y atención para los animales.
 
-**Segmento Objetivo 2 - Propietarios de Vehículos Alternativos:**
+**Segmento Objetivo 2 - Dueño de Mascotas:**
 
-Son personas de cualquier edad que poseen vehículos alternativos como bicicletas, scooters, patinetes eléctricos y motos eléctricas. Residen en diferentes partes del Perú y están interesados en reducir su impacto ambiental. Estos usuarios pueden tener un vehículo que no utilizan con frecuencia y buscan oportunidades para compartirlo y obtener ingresos adicionales. Además, valoran la posibilidad de promover un estilo de vida saludable y activo.
+El segundo segmento está compuesto por los dueños de mascotas, quienes son responsables del bienestar y la salud de sus animales. Este grupo de usuarios busca soluciones prácticas que les permitan manejar de manera eficiente la salud de sus mascotas, incluyendo la programación de citas, acceso a historiales médicos y recordatorios de vacunación. Pawfect Care les proporciona una plataforma que centraliza toda esta información y facilita el acceso desde cualquier dispositivo, brindándoles tranquilidad y control sobre el cuidado de sus animales. La conveniencia y facilidad de uso son elementos clave para este segmento, que espera una experiencia fluida y personalizada.
 
 ---
