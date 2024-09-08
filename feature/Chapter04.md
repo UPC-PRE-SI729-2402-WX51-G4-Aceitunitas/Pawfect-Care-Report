@@ -25,3 +25,11 @@ Los diagramas de componentes ofrecen una vista detallada de la arquitectura del 
 *Pet Owners Bounded Context*
 
 <p align = "center"> <img  alt="Component Diagram" src="/feature/assets/Chapter04/component_diagram01.png"> </p>
+
+## 4.7. Software Object-Oriented Design.
+
+En esta parte, exploramos la arquitectura interna del sistema, mostrando cómo los patrones de diseño se han aplicado para organizar y optimizar los componentes del software.
+
+### 4.7.1. Class Diagrams.
+
+<p align = "center"> <img  alt="Component Diagram" src="/feature/assets/Chapter04/uml_pawfectcare.png"> </p>
