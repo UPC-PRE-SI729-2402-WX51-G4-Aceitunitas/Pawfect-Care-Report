@@ -1,1 +1,16 @@
+# Capítulo V: Product Implementation, Validation & Deployment
+## 5.1. Software Configuration Management
+Esta guía define las decisiones y acuerdos fundamentales para el desarrollo, mantenimiento y despliegue de la aplicación Pawfect Care, que gestiona una veterinaria y la visualización de historiales clínicos. El objetivo es asegurar la calidad, eficiencia y coherencia a lo largo del desarrollo de nuestro proyecto.
 
+### 5.1.1. Software Development Environment Configuration
+Visual Studio Code: Escogimos Visual Studio Code como nuestra herramienta para el desarrollo web. Este editor de código ofrece un entorno capaz para manejar nuestros archivos y proyectos de manera eficiente.
+
+HTML: Para definir la estructura básica de las páginas web de Pawfect Care utilizaremos este lenguaje ya que, nos permite construir la estructura del contenido, como encabezados, párrafos, formularios y enlaces, asegurando que nuestra página web tenga una base sólida y estructura coherente para su comprensión.
+
+CSS: Aplicaremos CSS para mejorar el aspecto visual de nuestras páginas web. CSS nos proporciona la capacidad de seleccionar colores, fuentes, y estilos, permitiéndonos personalizar el diseño y la presentación de la página de acuerdo con nuestras necesidades y preferencias. De modo que la interfaz de usuario sea atractiva y coherente con la identidad visual de Pawfect Care.
+
+JavaScript: Incorporaremos JavaScript para añadir interactividad a la página web. Esto incluirá elementos dinámicos como botones con efectos, videos multimedia, animaciones, y otras características interactivas que mejorarán la experiencia del usuario y la funcionalidad general de la página.
+
+El uso de GitHub para Pawfect Care asegura una gestión eficaz del código fuente que fomentará la colaboración entre los miembros del equipo, y proporciona herramientas para la automatización y seguridad del proceso de desarrollo. Estas características son esenciales para garantizar el éxito y la calidad del proyecto a lo largo de su realización.
+
+Link del repositorio: 
