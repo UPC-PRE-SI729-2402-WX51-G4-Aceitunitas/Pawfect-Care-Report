@@ -199,6 +199,46 @@ En este apartado, abordaremos el despliegue de la Landing Page de Pawfect Care u
 
 #### 5.2.1.1. Sprint Planning 1
 
+Sprint 1 - Planificación
+Sprint Planning Background
+
+Date: 2024-09-07
+Time: 06:20 PM
+Location: Virtual (Google Meet)
+Prepared By: Gutiérrez García, José Eduardo.
+Attendees: Bastidas Bastidas, Diego Martín / Chávez Uribe, Ario Joel / Pérez García, David Alexander / Zúniga Calle, Sebastián Gabriel
+Sprint n – 1 Review Summary En el Sprint anterior, se completó la Landing Page de Pawfect Care, con el menú de navegación y las secciones principales. Se recibió retroalimentación positiva sobre la claridad de la navegación y la presentación general, pero se identificaron áreas de mejora en términos de contenido de la página de inicio.
+
+Sprint n – 1 Retrospective Summary El equipo destacó la eficiencia en la creación de la Landing Page, pero señaló que hubo algunos retrasos debido a la falta de claridad en los requerimientos iniciales. Se discutió la necesidad de definir más claramente los criterios de aceptación y los detalles del contenido antes del inicio del desarrollo.
+
+Sprint Goal Desarrollar e implementar las secciones clave de la Landing Page para que los usuarios puedan explorar las características principales de Pawfect Care y entender los beneficios del servicio.
+
+Sprint n Velocity El equipo ha establecido una capacidad de 8 Story Points para este Sprint, basada en la experiencia y la carga de trabajo estimada.
+
+Sum of Story Points La suma de los Story Points para los User Stories seleccionados en este Sprint es 8.
+
+User Stories para Sprint 1
+US12 - Barra de navegación en la Landing Page
+
+Descripción: Como usuario, quiero un menú para ver las secciones de la aplicación.
+Story Points: 3
+US13 - Sección "Why Choose Us?"
+
+Descripción: Como usuario, quiero una sección que explique por qué debo elegir Pawfect Care para entender los beneficios y características de la plataforma.
+Story Points: 3
+US14 - Sección de suscripciones
+
+Descripción: Como usuario, quiero una sección de suscripciones para entender las opciones de pago y los beneficios asociados a cada nivel de suscripción.
+Story Points: 2
+US15 - Reseñas de clientes
+
+Descripción: Como usuario, quiero leer reseñas de otros clientes para evaluar la confiabilidad y calidad del servicio antes de usar la plataforma.
+Story Points: 2
+Nota: Los Story Points asignados reflejan la complejidad y el esfuerzo estimado para completar cada User Story en el Sprint 1.
+
+Este enfoque asegura que el equipo se concentre en las partes esenciales de la Landing Page, permitiendo que los usuarios exploren la plataforma de manera efectiva.
+
+
 #### 5.2.1.2. Sprint Backlog 1
 
 #### 5.2.1.3. Development Evidence for Sprint Review
