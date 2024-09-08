@@ -6,13 +6,13 @@ Este enfoque enfatiza la importancia de entender a fondo el negocio para el que 
 
 El esquema de contexto es una herramienta de análisis que permite comprender las relaciones entre Pawfect Care y su entorno, facilitando así la identificación de posibles puntos de integración y mejora.
 
-<p align = "center"> <img  alt="Diagram Context" src="/feature/assets/Chapter04/context_diagram.png"> </p>
+<p align = "center"> <img  alt="Diagram Context" src="./assets/Chapter04/context_diagram.png"> </p>
 
 ### 4.6.2. Software Architecture Container Diagrams
 
 El diagrama de contenedores es una herramienta esencial para comprender la arquitectura de Pawfect Care y detectar posibles cuellos de botella o dependencias innecesarias.
 
-<p align = "center"> <img  alt="Container Diagram" src="/feature/assets/Chapter04/container_diagram.png"> </p>
+<p align = "center"> <img  alt="Container Diagram" src="./assets/Chapter04/container_diagram.png"> </p>
 
 ### 4.6.3. Software Architecture Components Diagrams.
 
@@ -20,11 +20,11 @@ Los diagramas de componentes ofrecen una vista detallada de la arquitectura del 
 
 *Veterinarians Bounded Context*
 
-<p align = "center"> <img  alt="Component Diagram" src="/feature/assets/Chapter04/component_diagram.png"> </p>
+<p align = "center"> <img  alt="Component Diagram" src="./assets/Chapter04/component_diagram.png"> 
 
 *Pet Owners Bounded Context*
 
-<p align = "center"> <img  alt="Component Diagram" src="/feature/assets/Chapter04/component_diagram01.png"> </p>
+<p align = "center"> <img  alt="Component Diagram" src="./assets/Chapter04/component_diagram01.png"> </p>
 
 ## 4.7. Software Object-Oriented Design.
 
@@ -32,7 +32,7 @@ En esta parte, exploramos la arquitectura interna del sistema, mostrando cómo l
 
 ### 4.7.1. Class Diagrams.
 
-<p align = "center"> <img  alt="Class Diagram" src="/feature/assets/Chapter04/uml_pawfectcare.png"> </p>
+<p align = "center"> <img  alt="Class Diagram" src="./assets/Chapter04/uml_pawfectcare.png"> </p>
 
 ### 4.7.2. Class Dictionary.
 
@@ -196,4 +196,7 @@ A continuación se presenta el código en formato markdown con las clases, atrib
 
 Decidimos emplear MySQL como sistema gestor de bases de datos, administrado a través de MySQL Workbench. Esta decisión se fundamenta en la familiaridad del equipo con el lenguaje SQL y en la capacidad de la herramienta para satisfacer las demandas de nuestro proyecto.
 
-<p align = "center"> <img  alt="ERD Diagram" src="/feature/assets/Chapter04/erd_pawfectcare.png"> </p>
+<p align = "center"> <img  alt="ERD Diagram" src="./assets/Chapter04/erd_pawfectcare.png"> </p>
+
+
+---
