@@ -19,3 +19,14 @@ Link del repositorio:
 Para Pawfect Care, utilizaremos el enfoque Gitflow con GitHub para gestionar el desarrollo del proyecto. Emplearemos dos ramas principales: main, que contendrá el código de producción estable, y gh-pages, para publicar la página web en GitHub Pages. La rama develop servirá como base para integrar nuevas características y correcciones, mientras que las ramas feature/ se usarán para desarrollar nuevas funcionalidades, y las ramas hotfix/ para solucionar errores críticos en producción. Las ramas release/ se utilizarán para preparar nuevas versiones antes de su liberación.
 
 GitHub facilitará la colaboración en equipo mediante pull requests para revisar y aprobar cambios, y issues para gestionar tareas y errores. Además, GitHub Pages permitirá la visualización de una versión de ejemplo de la aplicación. Esta estructura garantiza un desarrollo organizado, seguimiento efectivo del progreso y una integración continua de cambios, mejorando la eficiencia y calidad del proyecto.
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+### 5.1.4. Configuración de la implementación del software
+En este apartado, abordaremos el despliegue de la Landing Page de Pawfect Care utilizando GitHub. A continuación, se describen los pasos para habilitar el acceso a la página de destino de Pawfect Care y se incluirán capturas de pantalla para ilustrar el proceso.
+
+#### Vista del repositorio:
+#### Vista del avance:
+#### Commits:
+#### Landing page:
+
