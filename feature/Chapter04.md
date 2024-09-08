@@ -154,28 +154,51 @@ Diseñar la experiencia de usuario para las aplicaciones web implica pensar en c
 En esta sección se muestran los wireframes realizados para nuestra app.
 
 *Login de la aplicación*
+
 ![wire1](./assets/Chapter04/wireframe1.png)
+
 *Registro de la aplicacion*
+
 ![wire2](./assets/Chapter04/wireframe2.png)
+
 *Listado de mascotas*
+
 ![wire3](./assets/Chapter04/wireframe3.png)
+
 *Registro de mascotas*
+
 ![wire4](./assets/Chapter04/wireframe4.png)
+
 *Edición del perfil de la mascota*
+
 ![wire5](./assets/Chapter04/wireframe5.png)
+
 *Historial de la mascota*
+
 ![wire6](./assets/Chapter04/wireframe6.png)
+
 *Listado de eventos de la veterinaria*
+
 ![wire7](./assets/Chapter04/wireframe7.png)
+
 *Creacion de eventos de la  veterianaria*
+
 ![wire8](./assets/Chapter04/wireframe8.png)
+
 *Edición de un evento realizado por la veterinaria*
+
 ![wire9](./assets/Chapter04/wireframe9.png)
+
 *Listado de clientes de la veterinaria*
+
 ![wire10](./assets/Chapter04/wireframe10.png)
+
 *Registro de clientes de la veterinaria*
+
 ![wire11](./assets/Chapter04/wireframe11.png)
+
 *Edicion de clientes y listado de mascotas asociadas al cliente*
+
 ![wire12](./assets/Chapter04/wireframe12.png)
 
 Enlace del web application wireframes: https://www.figma.com/design/JnmdjjCQT13eu57Cy7hdXU/LANDING-PAGE-OPEN-SOURCE?node-id=0-1&t=NwDvcfY3AJxE2oRp-1
@@ -193,30 +216,55 @@ Enlace de los Mireflow: https://www.figma.com/design/JnmdjjCQT13eu57Cy7hdXU/LAND
 #### 4.4.2. Web Applications Mock-ups.
 
 *Login de la aplicación*
+
 ![mock1](./assets/Chapter04/mock1.png)
+
 *Registrarse*
+
 ![mock2](./assets/Chapter04/mock2.png)
+
 *Sección listado de mascotas*
+
 ![mock3](./assets/Chapter04/mock3.png)
+
 *Sección edición de mascotas*
+
 ![mock4](./assets/Chapter04/mock4.png)
+
 *Sección edición de perfil*
+
 ![mock5](./assets/Chapter04/mock5.png)
+
 *Sección historial de  la mascota*
+
 ![mock6](./assets/Chapter04/mock6.png)
+
 *Sección Listado de eventos*
+
 ![mock7](./assets/Chapter04/mock7.png)
+
 *Sección Creación de eventos*
+
 ![mock8](./assets/Chapter04/mock8.png)
+
 *Sección edición de eventos*
+
 ![mock9](./assets/Chapter04/mock9.png)
+
 *Sección listado de clientes*
+
 ![mock10](./assets/Chapter04/mock10.png)
+
 *Registro de clientes*
+
 ![mock11](./assets/Chapter04/mock11.png)
+
 *Edicion de clientes*
+
 ![mock12](./assets/Chapter04/mock12.png)
+
 *Sección Información de la mascota*
+
 ![mock13](./assets/Chapter04/mock13.png)
 
 
@@ -228,10 +276,15 @@ Enlace de los web applications Mock-ups: https://www.figma.com/design/JnmdjjCQT1
 *Segmento Administracion veterinaria*
 
 *Gestión de mascotas*
+
 ![flow1](./assets/Chapter04/flow1.png)
+
 *Gestión de eventos*
+
 ![flow2](./assets/Chapter04/flow2.png)
+
 *Gestion de Clientes*
+
 ![flow3](./assets/Chapter04/flow3.png)
 
 *Segmento Clientes*
