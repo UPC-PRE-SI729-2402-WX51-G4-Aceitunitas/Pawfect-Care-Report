@@ -49,7 +49,7 @@ En este apartado, abordaremos el despliegue de la Landing Page de Pawfect Care u
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-<img src="/feature/assets/Chapter05/rep4.png">
+<img src="/feature/assets/Chapter05/rep3.png">
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
