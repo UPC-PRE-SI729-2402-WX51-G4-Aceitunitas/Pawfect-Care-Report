@@ -13,3 +13,15 @@ El esquema de contexto es una herramienta de análisis que permite comprender la
 El diagrama de contenedores es una herramienta esencial para comprender la arquitectura de Pawfect Care y detectar posibles cuellos de botella o dependencias innecesarias.
 
 <p align = "center"> <img  alt="Container Diagram" src="/feature/assets/Chapter04/container_diagram.png"> </p>
+
+### 4.6.3. Software Architecture Components Diagrams.
+
+Los diagramas de componentes ofrecen una vista detallada de la arquitectura del software, ilustrando cómo se descompone en módulos y cómo estos se relacionan entre sí para formar un sistema cohesivo.
+
+*Veterinarians Bounded Context*
+
+<p align = "center"> <img  alt="Component Diagram" src="/feature/assets/Chapter04/component_diagram.png"> </p>
+
+*Pet Owners Bounded Context*
+
+<p align = "center"> <img  alt="Component Diagram" src="/feature/assets/Chapter04/component_diagram01.png"> </p>
