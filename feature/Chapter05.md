@@ -26,7 +26,11 @@ GitHub facilitará la colaboración en equipo mediante pull requests para revisa
 En este apartado, abordaremos el despliegue de la Landing Page de Pawfect Care utilizando GitHub. A continuación, se describen los pasos para habilitar el acceso a la página de destino de Pawfect Care y se incluirán capturas de pantalla para ilustrar el proceso.
 
 #### Vista del repositorio:
+<img src="/img/rep1.png">
 #### Vista del avance:
+<img src="/img/rep2.png">
 #### Commits:
+<img src="/img/rep4.png">
 #### Landing page:
+<img src="/img/rep3.png">
 
