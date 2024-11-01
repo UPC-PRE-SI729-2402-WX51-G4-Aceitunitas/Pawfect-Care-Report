@@ -536,6 +536,90 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 <img src="./assets/Chapter05/commit2.png">
 
+### 5.3. Validation Interviews
+#### 5.3.1. Diseño de Entrevistas
+#### 5.3.2. Registro de Entrevistas
+#### 5.3.3. Evaluaciones según heurísticas
+
+| **Site o App a Evaluar** | Pawfect-care |
+| :- | :- |
+| **Tareas a evaluar** | El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas |
+| **Desktop landing page** | - Información y descripción de la aplicación y sus funcionalidades  <br> - Información y breve descripción sobre el equipo de trabajo  <br> - Visualización de testimonios  <br> - Header y footer funcionales |
+| **Desktop Web Applications** | - Visualización de infromación registrada en el sistema <br> - Header y footer funcionales <br> - Pestañas de navegación dentro de la aplicación <br> - Botones interactivos y de uso intuitivo <br> - Visualización de ítems relacionados
+| **No incluidas en esta versión de la evaluación** | - Desktop landing page <br> - Formulario para crear cuenta o cambiar contraseña <br> - Política de privacidad y condiciones de uso <br> - Desktop Web Applications <br> - Visualización de Perfil de usuario <br> - Descripción detallada de productos al seleccionar <br> - Política de privacidad y condiciones de uso
+
+ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+|Nivel|Descripción|
+| :- | :- |
+|1|Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release.|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+**TABLA RESUMEN AMBOS SEGMENTOS:**
+
+**Web Application**
+
+|#|Problema|Escala de severidad|Heurística/Principio violado|
+| :- | :- | :- | :- |
+|1||1|IA - Is it clear?|
+|2||2|IA - Is it findable?|
+|3||1|Usability - Consistency and standards|
+
+**Landing Page**
+
+|#|Problema|Escala de severidad|Heurística/Principio violado|
+| :- | :- | :- | :- |
+|1||1|IA - Is it clear?|
+|2||1|IA - Is it usable?|
+|3||1|IA - Is it usable?|
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**1. Web Application**
+
+**PROBLEMA #1:**
+
+| Severidad: 1 | Heurística violada: IA - Is it clear? |
+| :- | :- |
+| Problema: | La navegación dentro de la aplicación puede no ser clara, y los usuarios puedan tener dificultades para encontrar las secciones deseadas. |
+| Recomendación: | Ampliar la estructura de la navegación y mejorar las etiquetas descriptivas a las pestañas. |
+
+**PROBLEMA #2:** 
+
+| Severidad: 2 | Heurística violada: IA - Is it findable? |
+| :- | :- |
+| Problema: | La información relevante está oculta o no es fácilmente accesible. |
+| Recomendación: | Reorganizar la información para que sea más accesible y visible desde la pantalla principal. |
+
+**2. Landing Page**
+
+**PROBLEMA #1:**
+
+| Severidad: 1| Heurística violada: Usability - Consistency and standards |
+| :- | :- |
+| Problema: | Hay inconsistencias en el diseño y los estándares utilizados en diferentes secciones de la aplicación. |
+| Recomendación: | Establecer y seguir un conjunto claro de directrices de diseño para mantener la consistencia en toda la aplicación. |
+
+**PROBLEMA #2:**
+
+| *Severidad: 1 | Heurística violada: IA - Is it clear? |
+| :- | :- |
+| Problema: | La información sobre la aplicación y sus funcionalidades no es clara y puede confundir a los usuarios. |
+| Recomendación: | Simplificar y clarificar la descripción de la aplicación y sus funcionalidades. |
+
+**PROBLEMA #3:**
+
+| Severidad: 1 | Heurística violada:IA - Is it usable? |
+| :- | :- |
+|Problema: | Los testimonios no son fáciles de visualizar y pueden pasar desapercibidos. |
+| Recomendación: | Mejorar el apartado funcional respecto a solicitudes específicas.  |
+
+
+### 5.4. Video About the Product
 
 
 ## Conclusiones
