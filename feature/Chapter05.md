@@ -538,7 +538,139 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 ### 5.3. Validation Interviews
 #### 5.3.1. Diseño de Entrevistas
+  ***Segmento 1: Médicos Veterinarios***
+1. ¿Cual es tu nombre?
+1. ¿Cuantos años tienes?
+1. ¿Tiempo de experiencia?
+1. ¿Que Aplicativo usas?
+1. ¿Que te parecio la interacción con Pawfect Care?
+1. ¿Que es lo que modificarias o añadirias?
+
+
+***Segmento 2: Dueños de Mascotas***
+
+1. ¿Que te parecio la interacción con Pawfect Care?
+1. ¿Que es lo que modificarias o añadirias?
+1. ¿Que tan sencillo te parecio el uso de Pawfect Care?
 #### 5.3.2. Registro de Entrevistas
+
+   ***Segmento 1: Médicos Veterinarios***
+
+   **Entrevistado N°1: Valentino Tirado**
+
+- **Sexo: Masculino** 
+- **Edad: 32 años**
+- **Domicilio: Los Olivos** 
+
+**Entrevista:** 
+
+- **Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EUx7FkGdfXlFub7BA-ppHLwBZgLQV6tDt1LyUZzG-bGDOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WX6I6x** 
+- **Momento en el que Inicia: 0:00 min**
+- **Duración: 7:10 min**
+
+**Resumen:**
+
+`	`
+
+
+![](./Assets/Valentino.png)
+
+**Entrevistado N°2: Anamaria Linares**
+
+- **Sexo: Femenino** 
+- **Edad: 24 años**
+- **Domicilio: San Miguel** 
+
+**Entrevista:** 
+
+- **Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EX3RCizXhMRJutn6EsuAy9IBckxpeIO2bu3eQ5yNuSqRvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xspNht** 
+- **Momento en el que Inicia: 0:00 min**
+- **Duración: 5:19 min**
+
+**Resumen:**
+
+` ` 
+
+![](./Assets/Vivi.png)
+
+**Entrevistado N°3: ** 
+
+- **Sexo: **
+- **Edad: **
+- **Domicilio: ** 
+
+**Entrevista:** 
+
+- **Link:  ** 
+- **Momento en el que Inicia: **
+- **Duración: **
+
+**Resumen:**
+
+` ` 
+
+
+![](./Assets/Noelia.png)
+
+***Segmento 2: Dueños de Mascotas***
+
+**Entrevistado N°1: Sebastián Silva**
+
+- **Sexo: Masculino**
+- **Edad: 20**
+- **Domicilio: San Luis** 
+
+**Entrevista:** 
+
+- **Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EWO04koXWcVAs4nPzrfvTFcB8sZNHkuyGgmyve2v9Y3bCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5zSnLn** 
+- **Momento en el que Inicia: 0:00 min**
+- **Duración: 7:33 min**
+
+**Resumen:**
+
+` `
+
+
+![](./assets/img/10.png)
+
+**Entrevistado N°2: Sebastian Escobar**
+
+- **Sexo: Masculino** 
+- **Edad: 20 años**
+- **Domicilio: Santa Anita**
+
+**Entrevista:** 
+
+- **Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Edj5SJ4zT29EjTLgcsUoObkBt5xJVe5eXwZ1aGQfNuB44w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nZAvtC** 
+- **Momento en el que Inicia: 0:00 min**
+- **Duración: 6:56 min**	
+
+**Resumen:**
+
+` `
+
+
+
+![](./Assets/Jose.png)
+
+**Entrevistado N°3: Shantal Quezada**
+
+- **Sexo: Femenino**
+- **Edad: 25 años**
+- **Domicilio: Surco** 
+
+**Entrevista:** 
+
+- **Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/ETg4urEPd_9BjxrgUNwage8Bsi9znPbJLLwyQ1sFmCcGmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lhFfmG**
+- **Momento en el que Inicia: 0:00 min**
+- **Duración: 4:43 min**
+
+**Resumen:**
+
+`	`
+
+![](./Assets/Camila.png)
+
 #### 5.3.3. Evaluaciones según heurísticas
 
 | **Site o App a Evaluar** | Pawfect-care |
