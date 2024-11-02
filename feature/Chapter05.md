@@ -570,7 +570,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 **Resumen:**
 
-`	`
+`	`El doctor Valentino nos explica que esta aplicación representa una innovación significativa en su práctica, ya que permite optimizar notablemente el tiempo durante las consultas. Uno de los aspectos que destaca es la facilidad y rapidez para crear historias clínicas, una tarea que actualmente le resulta tediosa y que consume mucho tiempo cuando utiliza VetPraxis. Esta plataforma, sin embargo, le ofrece una solución más eficiente y ágil. Además, sugiere la incorporación de una sección específica para el "Servicio de Baños", que permitiría registrar los baños realizados cada día, facilitando un control más organizado y detallado de estos servicios en beneficio de sus pacientes y de su equipo de trabajo.
 
 
 ![](./assets/Chapter05/valentino.png)
@@ -578,7 +578,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 **Entrevistado N°2: Anamaria Linares**
 
 - **Sexo: Femenino** 
-- **Edad: 24 años**
+- **Edad: 28 años**
 - **Domicilio: San Miguel** 
 
 **Entrevista:** 
@@ -589,7 +589,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 **Resumen:**
 
-` ` 
+` ` La doctora Anamaria actualmente utiliza VetPraxis, pero ha expresado su descontento debido a la gran cantidad de campos que, aunque no son obligatorios, resultan innecesarios y terminan ralentizando la creación de historias clínicas. Esto le hace perder tiempo en sus tareas diarias. Sin embargo, la doctora encuentra interesante la propuesta de la nueva aplicación, especialmente por su simplicidad y facilidad de uso, que considera una mejora significativa. Además, sugiere añadir una sección dedicada al "grooming", ya que en la clínica veterinaria donde trabaja se ofrece este servicio, y le parece importante tener un apartado específico para llevar un control adecuado de estos procedimientos. Esta función, según comenta, facilitaría la gestión y registro de los servicios de grooming, mejorando la organización y seguimiento dentro de la clínica.
 
 ![](./assets/Chapter05/Anamaria.png)
 
@@ -628,7 +628,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 **Resumen:**
 
-` `
+` `Sebastián Silva expresa que está muy satisfecho con el aplicativo y considera excelente la idea de tener acceso a la historia clínica de su mascota en cualquier lugar. Esto le resulta especialmente útil, ya que le permite brindar una explicación más completa y precisa si en algún momento necesita cambiar de médico o de veterinaria. Además, sugiere agregar un apartado específico para "Enfermedades", donde se pueda incluir una breve descripción de cada una. Esta funcionalidad ayudaría a ofrecer una visión más detallada y clara sobre el diagnóstico de su mascota, facilitando tanto el seguimiento de su salud como la comprensión de las condiciones médicas en caso de consultas con otros profesionales.
 
 
 ![](./assets/Chapter05/Silva.png)
@@ -647,8 +647,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 **Resumen:**
 
-` `
-
+` `Sebastián Escobar considera muy útil la posibilidad de tener acceso a la historia clínica de su mascota en cualquier momento y destaca lo valioso que es que sea el propio doctor quien pueda detallar esta información. Esto le genera mayor confianza en la precisión y claridad de los registros médicos. Como sugerencia, Sebastián propuso un cambio en la paleta de colores del aplicativo, recomendando el uso de tonos pastel para darle un aspecto más suave y profesional, acorde a la apariencia de una aplicación médica. Este ajuste en el diseño visual contribuiría a una experiencia de uso más agradable y coherente con el propósito médico de la herramienta.
 
 
 ![](./assets/Chapter05/Sebas.png)
@@ -667,7 +666,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 **Resumen:**
 
-`	`
+`	`Shantal encuentra muy atractiva la idea de contar con un aplicativo que le permita tener su historia clínica en un solo lugar, ya que de esta forma evitaría el riesgo de perderla. Sin embargo, sugiere una mejora importante en el proceso de registro de usuarios. Comenta que preferiría no depender de que la veterinaria le envíe un usuario y contraseña, ya que existe la posibilidad de que se olvide o se retrase. En su lugar, le gustaría tener la opción de crear su propia cuenta de manera autónoma, lo cual le brindaría más control y acceso inmediato a su información, haciéndole sentir que su historia clínica está segura y siempre disponible para ella.
 
 ![](./assets/Chapter05/Shantal.png)
 
