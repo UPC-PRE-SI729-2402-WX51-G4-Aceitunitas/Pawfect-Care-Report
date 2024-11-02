@@ -573,7 +573,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 `	`
 
 
-![](./Assets/Valentino.png)
+![](./assets/Chapter05/valentino.png)
 
 **Entrevistado N°2: Anamaria Linares**
 
@@ -591,7 +591,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 ` ` 
 
-![](./Assets/Vivi.png)
+![](./assets/Chapter05/Anamaria.png)
 
 **Entrevistado N°3: ** 
 
@@ -610,7 +610,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 ` ` 
 
 
-![](./Assets/Noelia.png)
+![]()
 
 ***Segmento 2: Dueños de Mascotas***
 
@@ -631,7 +631,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 ` `
 
 
-![](./assets/img/10.png)
+![](./assets/Chapter05/Silva.png)
 
 **Entrevistado N°2: Sebastian Escobar**
 
@@ -651,7 +651,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 
 
-![](./Assets/Jose.png)
+![](./assets/Chapter05/Sebas.png)
 
 **Entrevistado N°3: Shantal Quezada**
 
@@ -669,7 +669,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 `	`
 
-![](./Assets/Camila.png)
+![](./assets/Chapter05/Shantal.png)
 
 #### 5.3.3. Evaluaciones según heurísticas
 
