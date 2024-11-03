@@ -593,24 +593,24 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 ![](./assets/Chapter05/Anamaria.png)
 
-**Entrevistado N°3: ** 
+**Entrevistado N°3: Luis Palomino** 
 
-- **Sexo: **
-- **Edad: **
-- **Domicilio: ** 
+- **Sexo: Masculino**
+- **Edad: 28 años**
+- **Domicilio: Santa Anita** 
 
 **Entrevista:** 
 
-- **Link:  ** 
-- **Momento en el que Inicia: **
-- **Duración: **
+- **Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EVG2Btag0ZVHnSZkWnNPrIYBEW7RGSWmj959XB4SonNg0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xl2mXC** 
+- **Momento en el que Inicia: 0:00 min**
+- **Duración: 7:45 min**
 
 **Resumen:**
 
-` ` 
+` ` El doctor Luis Palomino opina que el aplicativo podría ser de gran utilidad para mejorar la experiencia de los usuarios en el proceso de reserva de citas médicas. Sin embargo, también sugiere que se incorporen algunas mejoras que optimicen aún más su funcionalidad. En particular, considera que sería beneficioso incluir una breve descripción de cada doctor, que permita a los clientes conocer un poco más sobre su especialidad, experiencia y enfoque de atención. Además, recomienda que se incluya información sobre la cantidad de citas disponibles por cada profesional, de modo que los usuarios puedan planificar sus visitas de forma más eficiente y agilizar el proceso de selección. De esta manera, el aplicativo no solo facilitaría el acceso a las citas, sino que también contribuiría a una experiencia de uso más satisfactoria y completa.
 
 
-![]()
+![](./assets/Chapter05/Luis.png)
 
 ***Segmento 2: Dueños de Mascotas***
 
