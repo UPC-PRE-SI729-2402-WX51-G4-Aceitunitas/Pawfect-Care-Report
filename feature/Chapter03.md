@@ -11,235 +11,109 @@
 <br><img src="./assets/Chapter03/Tobe2.jpeg" alt="To Be Scenario Map 2" style="width: 1000px; height: auto;" ><br>
 
 
-## 3.2. User Stories.
+## 3.2. User Stories
+# Gestión de Usuarios
+**EP01: Como administrador, deseo gestionar los usuarios para asegurar que solo personas autorizadas tengan acceso al sistema.**
 
-<!-- Tabla para Epic01 -->
-<table>
-  <thead>
-    <tr>
-      <th>Epic ID</th>
-      <th>Descripción del Epic
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Epic01</td>
-      <td>Como administrador, deseo gestionar los usuarios para asegurar que solo personas autorizadas tengan acceso al sistema.</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th>User Story ID</th>
-      <th>Título</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US01</td>
-      <td>Registro de Usuario</td>
-    </tr>
-    <tr>
-      <td>US02</td>
-      <td>Recuperación de Contraseña</td>
-    </tr>
-    <tr>
-      <td>US03</td>
-      <td>Gestión de Perfiles de Usuarios</td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- Tabla para Epic02 -->
-<br>
-<table>
-  <thead>
-    <tr>
-      <th>Epic ID</th>
-      <th>Descripción del Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Epic02</td>
-      <td>Como usuario, deseo gestionar la información de mis mascotas para mantener sus datos actualizados.</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th>User Story ID</th>
-      <th>Título</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US04</td>
-      <td>Creación de Perfil de Mascota</td>
-    </tr>
-    <tr>
-      <td>US05</td>
-      <td>Edición de Perfil de Mascota</td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-<!-- Tabla para Epic03 -->
-<table>
-  <thead>
-    <tr>
-      <th>Epic ID</th>
-      <th>Descripción del Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Epic03</td>
-      <td>Como usuario, deseo gestionar las citas veterinarias de mis mascotas para asegurarme de que reciban atención médica a tiempo.</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th>User Story ID</th>
-      <th>Título</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US06</td>
-      <td>Agendamiento de Citas</td>
-    </tr>
-    <tr>
-      <td>US07</td>
-      <td>Cancelación de Citas</td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-<!-- Tabla para Epic04 -->
-<table>
-  <thead>
-    <tr>
-      <th>Epic ID</th>
-      <th>Descripción del Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Epic04</td>
-      <td>Como usuario, deseo recibir notificaciones sobre eventos importantes relacionados con mis mascotas para estar siempre informado.</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th>User Story ID</th>
-      <th>Título</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US08</td>
-      <td>Notificaciones de Citas</td>
-    </tr>
-    <tr>
-      <td>US09</td>
-      <td>Notificaciones de Historial Médico</td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- Tabla para Epic05 -->
-<table>
-  <thead>
-    <tr>
-      <th>Epic ID</th>
-      <th>Descripción del Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Epic05</td>
-      <td>Como usuario, deseo participar en un foro comunitario para intercambiar experiencias y consejos con otros dueños de mascotas.</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th>User Story ID</th>
-      <th>Título</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US10</td>
-      <td>Publicación en el Foro</td>
-    </tr>
-    <tr>
-      <td>US11</td>
-      <td>Moderación del Foro</td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- Tabla para Epic06 -->
-<table>
-  <thead>
-    <tr>
-      <th>Epic ID</th>
-      <th>Descripción del Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Epic06</td>
-      <td>Como usuario, deseo explorar la página principal de Pawfect Care para entender los servicios y características que ofrece la plataforma.</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th>User Story ID</th>
-      <th>Título</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US12</td>
-      <td>Barra de navegación en la Landing Page</td>
-    </tr>
-    <tr>
-      <td>US13</td>
-      <td>Sección "Why Choose Us?"</td>
-    </tr>
-    <tr>
-      <td>US14</td>
-      <td>Sección de suscripciones</td>
-    </tr>
-    <tr>
-      <td>US15</td>
-      <td>Reseñas de clientes</td>
-    </tr>
-  </tbody>
-</table>
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US01          | Registro de Usuario        | Como visitante, deseo registrarme en la plataforma para poder utilizar las funcionalidades del sistema                                                        |
+| US02          | Recuperación de Contraseña | Como usuario, deseo recuperar mi contraseña en caso de olvidarla para no perder el acceso a mi cuenta                                                         |
+| US03          | Gestión de Perfiles de Usuarios | Como administrador, deseo gestionar los perfiles de los usuarios para mantener la información y permisos actualizados.                                    |
 
 ---
+
+# Gestión de Mascotas
+**EP02: Como usuario, deseo gestionar la información de mis mascotas para mantener sus datos actualizados.**
+
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US04          | Creación de Perfil de Mascota | Como usuario, deseo crear un perfil de mi mascota para tener su información almacenada en la plataforma.                                                  |
+| US05          | Edición de Perfil de Mascota | Como usuario, deseo editar el perfil de mi mascota para actualizar su información cuando sea necesario.                                                    |
+| US06          | Visualización de Perfiles de Mascotas | Como usuario, deseo visualizar los perfiles de mis mascotas para revisar la información registrada.                                                    |
+| US07          | Búsqueda de Mascotas por ID | Como administrador, deseo buscar mascotas por ID para acceder rápidamente a su información en el sistema.                                                   |
+| US08          | Gestión de Perfiles de Mascotas | Como administrador, deseo gestionar los perfiles de mascotas para asegurarme de que la información esté correctamente registrada y actualizada.          |
+
+---
+
+# Gestión de Citas Veterinarias
+**EP03: Como usuario, deseo gestionar las citas veterinarias de mis mascotas para asegurarme de que reciban atención médica a tiempo.**
+
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US09          | Agendamiento de Citas      | Como usuario, deseo agendar citas veterinarias para asegurar que mi mascota reciba atención médica en el momento adecuado.                                     |
+| US10          | Cancelación de Citas       | Como usuario, deseo cancelar una cita si no puedo asistir, para evitar problemas de horario y reorganizar la atención.                                        |
+| US11          | Gestión de Citas Veterinarias | Como administrador, deseo gestionar las citas veterinarias para coordinar correctamente la atención de las mascotas.                                     |
+| US12          | Búsqueda de Citas por ID   | Como administrador, deseo buscar citas por ID para acceder rápidamente a la información de la cita.                                                           |
+| US13          | Edición de Citas Veterinarias | Como administrador, deseo editar las citas para hacer cambios en la fecha o estado cuando sea necesario.                                                 |
+
+---
+
+# Gestión de Notificaciones
+**EP04: Como usuario, deseo recibir notificaciones sobre eventos importantes relacionados con mis mascotas para estar siempre informado.**
+
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US14          | Notificación de Citas Veterinarias | Como usuario, deseo recibir notificaciones de citas veterinarias para recordarme cuándo debo llevar a mi mascota al veterinario.                      |
+| US15          | Notificación de Historial Médico | Como usuario, deseo recibir notificaciones sobre actualizaciones en el historial médico de mi mascota para estar al tanto de su salud.                   |
+| US16          | Gestión de Notificaciones   | Como administrador, deseo gestionar el envío de notificaciones para asegurarme de que los usuarios reciban información importante a tiempo.               |
+
+---
+
+# Navegación y Funcionalidades de la Landing Page
+**EP05: Como visitante, deseo explorar la página principal de Pawfect Care para entender los servicios y características que ofrece la plataforma.**
+
+| User Story ID | Título                                     | Descripción                                                                                                                                                     |
+|---------------|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US17          | Barra de Navegación en la Landing Page     | Como visitante, deseo usar la barra de navegación para acceder fácilmente a las diferentes secciones de la plataforma.                                        |
+| US18          | Visualización de la Sección "Why Choose Us?" | Como visitante, deseo revisar la sección "Why Choose Us?" para entender los beneficios y servicios de la plataforma.                                     |
+| US19          | Gestión de Suscripciones en la Landing Page | Como visitante, deseo revisar los planes de suscripción en la página principal para elegir el plan más adecuado para mí.                                  |
+| US20          | Revisión de Reseñas de Clientes           | Como visitante, deseo revisar las reseñas de otros clientes para evaluar la experiencia de otros usuarios con la plataforma.                                 |
+| US21          | Envío de Mensajes de Contacto             | Como visitante, deseo enviar un mensaje de contacto a través de la landing page para comunicarme con el equipo de Pawfect Care.                             |
+| US22          | Visualización de Videos en la Sección de Características | Como visitante, deseo ver los videos informativos sobre los productos y servicios para conocer más sobre Pawfect Care.                                    |
+
+---
+
+# Gestión de Clientes
+**EP06: Como administrador, deseo gestionar la información de los clientes para mantener los datos actualizados y organizados.**
+
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US24          | Creación de Perfiles de Clientes | Como administrador, deseo crear perfiles de clientes para registrar la información de contacto y sus mascotas.                                            |
+| US25          | Edición de Perfiles de Clientes | Como administrador, deseo editar los perfiles de clientes para actualizar su información personal y de contacto.                                          |
+| US26          | Búsqueda de Clientes por ID | Como administrador, deseo buscar clientes por su ID para acceder rápidamente a su información y gestionar sus mascotas.                                      |
+
+---
+
+# Gestión de Eventos Veterinarios
+**EP07: Como administrador o doctor veterinario, deseo gestionar los eventos veterinarios para asegurarme de que las mascotas reciban la atención adecuada.**
+
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US27          | Creación de Eventos Veterinarios | Como administrador, deseo crear eventos veterinarios como desparasitaciones, vacunaciones, y chequeos para gestionar el historial médico de las mascotas.    |
+| US28          | Edición de Eventos Veterinarios | Como administrador, deseo editar los eventos veterinarios para corregir fechas o agregar información adicional.                                            |
+| US29          | Búsqueda de Eventos por ID | Como administrador, deseo buscar eventos veterinarios por ID para revisar o modificar la información rápidamente.                                            |
+| US30          | Gestión del Estado de los Eventos | Como administrador, deseo cambiar el estado de los eventos (ej. completado, pendiente) para reflejar su estado actual.                                   |
+
+---
+
+# Gestión de Historial Médico de las Mascotas
+**EP08: Como usuario o administrador, deseo gestionar el historial médico de las mascotas para llevar un registro de sus atenciones y tratamientos.**
+
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US31          | Visualización del Historial Médico | Como usuario, deseo visualizar el historial médico de mi mascota para revisar su estado de salud y tratamientos previos.                                  |
+| US32          | Actualización del Historial Médico | Como administrador o doctor veterinario, deseo actualizar el historial médico de las mascotas para que los usuarios tengan la información más reciente sobre sus tratamientos. |
+
+---
+
+# Funcionalidades de Idioma en la App Web
+**EP09: Como usuario, deseo cambiar el idioma de la plataforma para navegar entre las versiones en inglés y español de la app web.**
+
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US23          | Cambio de Idioma en la App Web | Como usuario, deseo cambiar el idioma de la app web para poder utilizarla en inglés o español según mi preferencia.                                        |
+
 <br><br>
 <table>
     <thead>
