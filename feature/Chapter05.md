@@ -536,6 +536,224 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 <img src="./assets/Chapter05/commit2.png">
 
+### 5.2.3. Sprint 2
+
+#### 5.2.3.1. Sprint Planning 1
+
+<table>
+  <tr>
+    <th> Sprint # </th>
+    <th> Sprint 3 </th>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2"> Sprint Planning Background </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Date </td>
+    <td> 03/11/2024 </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Time </td>
+    <td> 23:00 horas (GMT-5) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Location </td>
+    <td> Virtual (Google Meet) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Prepared By </td>
+    <td> Gutierrez Garcia, Jose Eduardo </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+    <td>
+      Bastidas Bastidas, Diego Martin<br>
+      Chavez Uribe, Ario Joel<br>
+      Gutierrez Garcia, Jose Eduardo<br>
+      Perez Garcia, David Alexander<br>
+      Zuniga Calle, Sebastian Gabriel
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 3 Review Summary </td>
+    <td>Este sprint estuvo enfocado en la configuración del backend y en el despliegue inicial de la plataforma, incluyendo la implementación del sistema de autenticación (login) en la aplicación web. Además, se completó la integración de los videos "About the Product" y "About the Team" en la landing page, enriqueciendo la sección informativa para los usuarios. El equipo logró cumplir con las entregas previstas y avanzó en la consolidación de la estructura de la plataforma.</td>
+ 
+  </tr>
+  <tr>
+    <<td style="font-weight: bold;">Sprint 3 Retrospective Summary</td>
+    <td>En este sprint se destacó la necesidad de optimizar la colaboración entre los equipos de frontend y backend, especialmente en el proceso de integración de nuevas funcionalidades. Se sugirió mejorar la documentación y coordinación en el despliegue para reducir tiempos de espera y asegurar un flujo de trabajo más fluido.</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2"> Sprint Goal & User Stories </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 3 Goal </td>
+    <td>El objetivo de este sprint es completar el despliegue del backend y la integración del sistema de login en la aplicación web. También se busca enriquecer la landing page con videos informativos que permitan a los usuarios comprender mejor el producto y el equipo detrás de Pawfect Care.</td>
+  </tr>
+  <tr>z
+    <td style="font-weight: bold;"> Sprint 3 Velocity </td>
+    <td><strong>17</strong><br> El equipo ha establecido una capacidad de 17 Story Points para este Sprint, considerando la complejidad del despliegue backend y la integración de nuevas funcionalidades en la web app.</td>
+ 
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sum of Story Points </td>
+    <td> 17 </td>
+  </tr>
+</table>
+
+
+#### 5.2.3.2. Sprint Backlog 3
+
+
+| id   | Title                                | Id  | Title                                                   | Description                                                                                                           | Estimations(Hours) | Assigned To   | Status (To-do /InProcess/ToReview/Done) |
+| ---- | ------------------------------------ | --- | ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------- | ---------------------------------------- |
+| US01 | Login en la App Web                  | TS10 | Componente de Autenticación (Login)                     | Desarrollo del sistema de autenticación, permitiendo a los usuarios iniciar sesión de manera segura.                  | 10                 | David         | Done                                     |
+| US02 | Recuperación de Contraseña           | TS15 | Implementación de Recuperación de Contraseña            | Desarrollo de la funcionalidad para recuperar contraseñas olvidadas a través de correo electrónico o SMS.             | 8                  | Diego         | To-do                                   |
+| US23 | Cambio de Idioma en la App Web       | TS09 | Desarrollo de Funcionalidad para Cambio de Idioma       | Implementación de un selector de idioma para la app web, permitiendo cambiar entre inglés y español.                  | 8                  | Diego         | Done                                     |
+| US17 | Barra de Navegación en la Landing Page | TS12 | Componentes de Navegación                               | Configuración de la barra de navegación para una navegación intuitiva entre secciones.                                | 6                  | Jose          | Done                                     |
+| US22 | Visualización de Videos en la Landing Page | TS11 | Integración de Videos en la Landing Page               | Integración de los videos "About the Product" y "About the Team" en la landing page con controles de reproducción.    | 6                  | Jose          | Done                                     |
+| US24 | Creación de Perfiles de Clientes      | TS13 | Bounded Context para Clientes                           | Configuración y despliegue del módulo de clientes en el backend, incluyendo creación y almacenamiento de perfiles.    | 12                 | Ario          | Done                                     |
+| US04 | Creación de Perfiles de Mascotas      | TS14 | Bounded Context para Mascotas                           | Configuración y despliegue del módulo de mascotas en el backend, incluyendo creación y gestión de perfiles de mascotas. | 12               | Diego         | Done                                     |
+
+En este sprint, se completaron las funcionalidades de **login**, **cambio de idioma**, y los **videos en la landing page**. También se desplegaron en el backend los bounded contexts de **clientes** y **mascotas**. El único elemento pendiente es la **recuperación de contraseña**. Este desarrollo se realizó con **Angular**, **TypeScript**, y **Node.js**, mejorando la experiencia de usuario y permitiendo una gestión integral de clientes y mascotas en el sistema.
+
+
+
+
+#### 5.2.3.3. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit <br>Message | Commit <br>Message Body | Commited <br>on (Date) |
+|:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
+| [PawFect Care <br> BackEnd](https://github.com/UPC-PRE-SI729-2402-WX51-G4-Aceitunitas/PawFect-Care-BackEnd) | main | 4e2e1e9| feat(pets): add pets bounded context |  | 20/10/2024 |
+| BackEnd | feat/clients-bounded-context | 4e2e1e9 | feat(clients): add clients bounded context |  | 20/10/2024 |
+| BackEnd | feat/pets-bounded-context| 3a26b2c | feat(pets): add pets bounded context |  | 20/10/2024 |
+| BackEnd | feat/Azure-Settings | b3f3758|chore(deploy): update main_pawfectcare.yml for deployment configuration |  | 03/11/2024|
+| BackEnd | develop | 3f04421|merge: integrate deployment configuration updates from feat/azure-settings |  | 03/11/2024|
+| BackEnd | main| 170592a|merge: integrate deployment configuration updates from develop|  | 03/11/2024|
+
+
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review
+Durante este sprint, hemos llevado a cabo las pruebas de aceptación utilizando la herramienta Gherkin. Puedes encontrar los escenarios de estas pruebas dando click aqui: [https://github.com/UPC-PRE-SI729-2402-WX51-G4-Aceitunitas/PawFect-care-Acceptance-Tests](https://github.com/UPC-PRE-SI729-2402-WX51-G4-Aceitunitas/PawFect-care-Acceptance-Tests)
+
+| Repository | Branch | Commit Id | Commit <br>Message | Commit <br>Message Body | Commited <br>on (Date) |
+|:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
+| PawFect Care <br> Acceptance Tests | main | 4bbda94 | Initial commit |  | 09/07/2024 |
+|   | main | 66c33e5 | feat: added acceptance tests |  | 09/07/2024 |
+|   | main | 91e4297 | feat: added images |  | 09/07/2024 |
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+En este sprint, el equipo de PawFect Care completó exitosamente la creación y el deployment del BackEnd API en Azure Web Services, utilizando PostgreSQL for Azure como base de datos. Esta infraestructura garantiza un entorno escalable y seguro para el almacenamiento y gestión de datos de usuarios, clientes y mascotas, cumpliendo con los estándares de rendimiento y seguridad necesarios para la aplicación.
+
+Además, se desplegó una nueva versión de la landing page y del frontend de la aplicación, lo cual mejora la experiencia de usuario y proporciona acceso a funcionalidades clave implementadas en este sprint, como la creación y gestión de perfiles de usuario y mascota. Esta actualización también incluye videos informativos sobre el producto y el equipo, que proporcionan una visión general de los servicios de PawFect Care.
+
+La API del backend se documenta mediante Swagger, facilitando el acceso a todos los endpoints para el equipo de desarrollo y futuros colaboradores.
+
+Enlace a la documentación de la API en Swagger:
+
+Enlace del deployment de la Landing Page: [https://pawfectcare-dnhqhvbmbxfgcqen.eastus2-01.azurewebsites.net/swagger-ui/index.html#/](https://pawfectcare-dnhqhvbmbxfgcqen.eastus2-01.azurewebsites.net/swagger-ui/index.html#/)
+
+Enlace del deployment de la Landing Page: [https://pawfect-care-app-web.web.app](https://pawfect-care-app-web.web.app/home)
+
+Enlace del deployment de la Landing Page: [https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/](https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/)
+
+Este despliegue asegura una base sólida para el funcionamiento de PawFect Care, dejando el backend, el frontend y la landing page listos para futuras integraciones y escalabilidad conforme crezcan las necesidades del proyecto.
+
+
+**Swagger UI**
+
+<img src="./assets/Chapter05/swagger.png">
+
+**Seccion video about the team en landing page**
+
+<img src="./assets/Chapter05/landingvideo1.png">
+
+**Seccion video about the product en landing page**
+
+<img src="./assets/Chapter05/landingvideo2.png">
+
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+En el alcance del Sprint 3, se ha priorizado la creación y el despliegue del BackEnd API en Azure Web Services, así como la implementación de nuevas funcionalidades en la aplicación. Durante este sprint, se ha documentado extensivamente el uso de servicios web, específicamente a través de Swagger, lo que permite a los desarrolladores y colaboradores acceder fácilmente a la API y comprender los distintos endpoints disponibles.
+
+La documentación incluye:
+
+Descripción de los endpoints para la gestión de usuarios, clientes y mascotas.
+Detalles sobre las operaciones permitidas, como la creación, edición y recuperación de datos.
+Ejemplos de solicitudes y respuestas para facilitar la integración con el frontend.
+Este enfoque no solo mejora la claridad sobre cómo interactuar con el backend, sino que también asegura que todos los miembros del equipo tengan un entendimiento compartido sobre las capacidades de la API, lo cual es crucial para el desarrollo y la colaboración continua.
+
+Con el backend completamente documentado y disponible, el equipo está bien posicionado para futuras fases de desarrollo y para la integración de nuevas características en la aplicación PawFect Care.
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante este sprint, se ha completado el desarrollo del backend de la aplicación web, así como la actualización del frontend. Para el despliegue, se utilizaron las siguientes herramientas y servicios:
+
+- **Git:** Sistema de control de versiones utilizado para facilitar la colaboración entre los miembros del equipo y monitorear las versiones de la aplicación web en un repositorio remoto.
+
+- **GitFlow:** Este flujo de trabajo colaborativo nos permitió gestionar las ramas del repositorio de manera efectiva, asegurando que el desarrollo de nuevas funcionalidades se hiciera en ramas separadas y facilitando la integración al proyecto principal.
+
+- **GitHub Desktop:** Herramienta de interfaz gráfica que utilizamos para interactuar con nuestro repositorio de GitHub de manera intuitiva, simplificando la gestión de commits, ramas y pull requests.
+
+- **GitHub:** Plataforma de desarrollo colaborativo que nos proporcionó el repositorio donde almacenamos y gestionamos el código fuente de nuestro proyecto, facilitando el seguimiento de cambios y la colaboración.
+
+- **Azure Web Services:** Servicio en la nube utilizado para desplegar el backend de nuestra aplicación. Esto nos permitió implementar una infraestructura escalable y segura para la API de PawFect Care.
+
+- **PostgreSQL for Azure:** Servicio de base de datos en la nube que utilizamos para almacenar y gestionar los datos de la aplicación. Esta solución proporcionó un entorno robusto para nuestras operaciones de backend.
+
+Enlace del deployment de la Landing Page: [https://pawfectcare-dnhqhvbmbxfgcqen.eastus2-01.azurewebsites.net/swagger-ui/index.html#/](https://pawfectcare-dnhqhvbmbxfgcqen.eastus2-01.azurewebsites.net/swagger-ui/index.html#/)
+
+Enlace del deployment de la Landing Page: [https://pawfect-care-app-web.web.app](https://pawfect-care-app-web.web.app/home)
+
+Enlace del deployment de la Landing Page: [https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/](https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/)
+
+
+Este enfoque integral asegura que tanto el frontend como el backend de la aplicación estén correctamente implementados y funcionales, permitiendo a los usuarios finales una experiencia óptima al interactuar con PawFect Care.
+
+
+<img src="./assets/Chapter05/sprint3.png">
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+El equipo organizó el desarrollo del frontend y backend de la aplicación web en ramas para abordar cada sección de forma independiente, optimizando así el mantenimiento y la colaboración durante el sprint. Se siguieron las convenciones estándar de GitFlow, por lo que se crearon ramas de desarrollo y de funcionalidad (bounded-context) según la necesidad. A continuación, se detallan las tareas asignadas a cada miembro del equipo, así como los comentarios del equipo a través de la plataforma GitHub:
+
+| Alumno                          | Actividad                                                                                                                                                                                        |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Gutierrez Garcia, Jose Eduardo  | Se encargó del desarrollo y despliegue del backend de la aplicación en la nube, asegurando que la API estuviera operativa y lista para su uso.                                                  |
+| Bastidas Bastidas, Diego Martin  | Se encargó de realizar entrevistas y colaborar en el desarrollo del backend, contribuyendo con su experiencia en la gestión de datos y funcionalidades de la aplicación. |
+| Perez Garcia, David Alexander   | Se encargó del desarrollo tanto del backend como del frontend, implementando características que mejoraron la interacción del usuario con la plataforma.                                         |
+| Chavez Uribe, Ario Joel        | Se encargó del desarrollo del frontend y la landing page, enfocándose en crear una experiencia de usuario intuitiva y atractiva.                                                                 |
+
+Este enfoque colaborativo permitió que el equipo integrara diferentes perspectivas y habilidades, garantizando un avance efectivo en el proyecto PawFect Care. 
+
+A continuación, se mostrará la tabla de colaboradores en el repositorio de GitHub, con el objetivo de identificar a cada miembro del equipo.
+
+Tabla de integrantes:
+
+| Username (GitHub) | Nombre                         |
+| ----------------- | ------------------------------ |
+| ghostnotfound404  | Bastidas Bastidas, Diego Martin  |
+| feg06             | Chavez Uribe, Ario Joel  |
+| elcrackje         | Gutierrez Garcia, Jose Eduardo  |
+| davidalexd        | Perez Garcia, David Alexander   |
+
+
+A continuación se mostrarán los gráficos de insights durante el sprint:
+
+Anexo: Flujo de trabajo entre las ramas.
+
+<img src="./assets/Chapter05/gitflow3.png">
+
+Anexo: Tablas de commits en el periodo de 1 mes.
+
+<img src="./assets/Chapter05/commit3.png">
+
 ### 5.3. Validation Interviews
 #### 5.3.1. Diseño de Entrevistas
   ***Segmento 1: Médicos Veterinarios***
