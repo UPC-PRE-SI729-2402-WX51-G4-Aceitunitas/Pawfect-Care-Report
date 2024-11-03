@@ -715,7 +715,7 @@ Este enfoque integral asegura que tanto el frontend como el backend de la aplica
 
 
 <img src="./assets/Chapter05/sprint3.png">
-
+<img src="./assets/Chapter05/deploybackend.png">
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
