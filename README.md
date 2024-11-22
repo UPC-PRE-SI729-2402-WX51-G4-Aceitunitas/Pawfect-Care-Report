@@ -105,7 +105,7 @@ Además, se han generado los artefactos necesarios utilizando las herramientas r
 ![Insight12](./assets/Chapter01/insight12.png)
 ![Insight13](./assets/Chapter01/insight13.png)
 
-**TF1**: Las tareas asignadas para la entrega del TB2 han sido completadas y debidamente documentadas en el repositorio de GitHub del equipo. [https://github.com/UPC-PRE-SI729-2402-WX51-G4-Aceitunitas/Pawfect-Care-Report.git](https://github.com/UPC-PRE-SI729-2402-WX51-G4-Aceitunitas/Pawfect-Care-Report.git)
+**TF1**: Las tareas asignadas para la entrega del TF1 han sido completadas y debidamente documentadas en el repositorio de GitHub del equipo. [https://github.com/UPC-PRE-SI729-2402-WX51-G4-Aceitunitas/Pawfect-Care-Report.git](https://github.com/UPC-PRE-SI729-2402-WX51-G4-Aceitunitas/Pawfect-Care-Report.git)
 
 - Se realizaron actualizaciones tanto en el frontend como en el backend para garantizar la integración completa entre ambos.
 - El frontend fue modificado para consumir las APIs del backend de manera eficiente, optimizando la comunicación entre los servicios.
@@ -3045,7 +3045,6 @@ Decidimos emplear MySQL como sistema gestor de bases de datos, administrado a tr
 
 
 ---
-
 # Capítulo V: Product Implementation, Validation & Deployment
 ### 5.1. Software Configuration Management.
 #### 5.1.1. Software Development Environment Configuration.
@@ -3802,6 +3801,71 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 <img src="./assets/Chapter05/commit3.png">
 
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+<table>
+  <tr>
+    <th> Sprint # </th>
+    <th> Sprint 4 </th>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2"> Sprint Planning Background </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Date </td>
+    <td> 21/11/2024 </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Time </td>
+    <td> 13:00 horas (GMT-5) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Location </td>
+    <td> Virtual (Google Meet) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Prepared By </td>
+    <td> Gutierrez Garcia, Jose Eduardo </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+    <td>
+      Bastidas Bastidas, Diego Martin<br>
+      Chavez Uribe, Ario Joel<br>
+      Gutierrez Garcia, Jose Eduardo<br>
+      Perez Garcia, David Alexander<br>
+      Zuniga Calle, Sebastian Gabriel
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 4 Review Summary </td>
+    <td>Este sprint se centró en la integración del frontend con el backend, logrando que el frontend consumiera correctamente los servicios del backend desplegado. También se completó la funcionalidad de creación y gestión de perfiles de usuario y mascotas, asegurando una experiencia fluida para los usuarios. Adicionalmente, se implementaron mejoras en la landing page, como el cambio de idioma y la barra de navegación, proporcionando una experiencia de usuario más completa.</td>
+ 
+  </tr>
+  <tr>
+    <<td style="font-weight: bold;">Sprint 4 Retrospective Summary</td>
+    <td> Durante este sprint se identificaron áreas de mejora en la sincronización entre los desarrollos del backend y frontend, particularmente en el manejo de errores y en la documentación de las APIs. Se sugirió establecer revisiones de integración más frecuentes para evitar retrasos en la entrega de funcionalidades.</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2"> Sprint Goal & User Stories </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 4 Goal </td>
+    <td> El objetivo de este sprint fue completar la integración entre el frontend y el backend, garantizando que el frontend consumiera los servicios del backend de forma eficiente. Además, se buscó finalizar las funcionalidades relacionadas con la creación y gestión de perfiles de usuarios y mascotas, así como optimizar la landing page para mejorar la experiencia de los usuarios.</td>
+  </tr>
+  <tr>z
+    <td style="font-weight: bold;"> Sprint 4 Velocity </td>
+    <td><strong>17</strong><br> El equipo determinó una capacidad de 20 Story Points para este sprint, considerando el esfuerzo necesario para la integración completa y las nuevas funcionalidades implementadas.</td>
+ 
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sum of Story Points </td>
+    <td> 20 </td>
+  </tr>
+</table>
+
 #### 5.2.4.2. Sprint Backlog 4
 
 
@@ -4230,7 +4294,7 @@ Entrevistas Médicos Veterinarios:<br>
 
 Entrevistas Dueños de Mascotas:<br>
 
-- [`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Ec1XInM48xNOvR2jbzHkwuABf9CG5aosdZClZOwqh0nyYw`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Ec1XInM48xNOvR2jbzHkwuABf9CG5aosdZClZOwqh0nyYw)
+- `[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Ec1XInM48xNOvR2jbzHkwuABf9CG5aosdZClZOwqh0nyYw`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Ec1XInM48xNOvR2jbzHkwuABf9CG5aosdZClZOwqh0nyYw)
 
 - [`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EQxyGm-xOy9Gixk9iwdU5-4B7_sjaOllyMTn6QX3f6py1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aOWtoD`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EQxyGm-xOy9Gixk9iwdU5-4B7_sjaOllyMTn6QX3f6py1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aOWtoD)
 
