@@ -536,6 +536,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 <img src="./assets/Chapter05/commit2.png">
 
+
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.1. Sprint Planning 3
@@ -652,9 +653,9 @@ La API del backend se documenta mediante Swagger, facilitando el acceso a todos 
 
 Enlace a la documentación de la API en Swagger:
 
-Enlace del deployment de la Landing Page: [https://pawfectcare-dnhqhvbmbxfgcqen.eastus2-01.azurewebsites.net/swagger-ui/index.html#/](https://pawfectcare-dnhqhvbmbxfgcqen.eastus2-01.azurewebsites.net/swagger-ui/index.html#/)
+Enlace del deployment del Backend: [https://pawfectcare-dnhqhvbmbxfgcqen.eastus2-01.azurewebsites.net/swagger-ui/index.html#/](https://pawfectcare-dnhqhvbmbxfgcqen.eastus2-01.azurewebsites.net/swagger-ui/index.html#/)
 
-Enlace del deployment de la Landing Page: [https://pawfect-care-app-web.web.app](https://pawfect-care-app-web.web.app/home)
+Enlace del deployment del FrontEnd: [https://pawfect-care-app-web.web.app](https://pawfect-care-app-web.web.app/home)
 
 Enlace del deployment de la Landing Page: [https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/](https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/)
 
@@ -715,6 +716,7 @@ Este enfoque integral asegura que tanto el frontend como el backend de la aplica
 
 
 <img src="./assets/Chapter05/sprint3.png">
+
 <img src="./assets/Chapter05/deploybackend.png">
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
@@ -752,6 +754,149 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 <img src="./assets/Chapter05/commit3.png">
 
+#### 5.2.4.2. Sprint Backlog 4
+
+
+| **ID**  | **Title**                              | **Task ID** | **Task Title**                                    | **Description**                                                                                     | **Estimations (Hours)** | **Assigned To** | **Status**              |
+|---------|----------------------------------------|-------------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------|--------------------------|-----------------|-------------------------|
+| US01    | Login en la App Web                   | TS10        | Componente de Autenticación (Login)              | Desarrollo del sistema de autenticación, permitiendo a los usuarios iniciar sesión de manera segura. | 10                       | David           | Done                    |
+| US02    | Recuperación de Contraseña            | TS15        | Implementación de Recuperación de Contraseña     | Desarrollo de la funcionalidad para recuperar contraseñas olvidadas a través de correo electrónico o SMS. | 8                        | Diego           | To-do                  |
+| US23    | Cambio de Idioma en la App Web        | TS09        | Desarrollo de Funcionalidad para Cambio de Idioma | Implementación de un selector de idioma para la app web, permitiendo cambiar entre inglés y español. | 8                        | Diego           | Done                    |
+| US17    | Barra de Navegación en la Landing Page | TS12        | Componentes de Navegación                        | Configuración de la barra de navegación para una navegación intuitiva entre secciones.              | 6                        | Jose            | Done                    |
+| US22    | Visualización de Videos en la Landing Page | TS11        | Integración de Videos en la Landing Page         | Integración de los videos "About the Product" y "About the Team" en la landing page con controles de reproducción. | 6                        | Jose            | Done                    |
+| US24    | Creación de Perfiles de Clientes       | TS13        | Bounded Context para Clientes                    | Configuración y despliegue del módulo de clientes en el backend, incluyendo creación y almacenamiento de perfiles. | 12                       | Ario            | Done                    |
+| US04    | Creación de Perfiles de Mascotas       | TS14        | Bounded Context para Mascotas                    | Configuración y despliegue del módulo de mascotas en el backend, incluyendo creación y gestión de perfiles de mascotas. | 12                       | Diego           | Done                    |
+
+
+#### 5.2.4.3. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit <br>Message | Commit <br>Message Body | Commited <br>on (Date) |
+|:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
+| [PawFect Care <br> BackEnd](https://github.com/UPC-PRE-SI729-2402-WX51-G4-Aceitunitas/PawFect-Care-BackEnd) | main | 4e2e1e9| feat(pets): add pets bounded context |  | 20/10/2024 |
+| BackEnd | feat/medicalhistory | fe993e0 | feat(medicalhistory): add medicalhistory bounded context |  | 21/11/2024 |
+| BackEnd | feat/Azure-Settings | b3f3758|chore(deploy): update main_pawfectcare.yml for deployment configuration |  | 21/11/2024|
+| BackEnd | develop | 47ff021 |merge: integrate medicalhistory bounded context from feat/medicalhistory |  | 21/11/2024|
+| BackEnd | main| 1936y8a |merge:  medicalhistory bounded context from develop|  | 21/11/2024|
+
+
+
+#### 5.2.4.4. Testing Suite Evidence for Sprint Review
+Durante este sprint, hemos llevado a cabo las pruebas de aceptación utilizando la herramienta Gherkin. Puedes encontrar los escenarios de estas pruebas dando click aqui: [https://github.com/UPC-PRE-SI729-2402-WX51-G4-Aceitunitas/PawFect-care-Acceptance-Tests](https://github.com/UPC-PRE-SI729-2402-WX51-G4-Aceitunitas/PawFect-care-Acceptance-Tests)
+
+| Repository | Branch | Commit Id | Commit <br>Message | Commit <br>Message Body | Commited <br>on (Date) |
+|:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
+| PawFect Care <br> Acceptance Tests | main | 4bbda94 | Initial commit |  | 09/07/2024 |
+|   | main | 66c33e5 | feat: added acceptance tests |  | 09/07/2024 |
+|   | main | 91e4297 | feat: added images |  | 09/07/2024 |
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+En este sprint, el equipo de PawFect Care completó exitosamente la integración entre el frontend y el backend, permitiendo que las funcionalidades del frontend consuman la API desarrollada en el backend. Esto marca un hito importante en el desarrollo del proyecto, ya que garantiza la interacción fluida y en tiempo real entre la interfaz de usuario y la base de datos en PostgreSQL for Azure, todo desplegado en Azure Web Services.
+
+Además, se actualizaron y probaron las funcionalidades de inicio de sesión, cambio de idioma y gestión de perfiles de clientes y mascotas, verificando su correcto funcionamiento tanto a nivel de interfaz como de API. Estas integraciones mejoran la experiencia del usuario y consolidan la plataforma como una solución robusta para la gestión veterinaria.
+
+Por otro lado, la documentación de la API mediante Swagger sigue vigente y se actualizó con los nuevos endpoints utilizados por el frontend, lo que facilita la comprensión y el mantenimiento del sistema por parte del equipo de desarrollo y futuros colaboradores.
+
+Con estas implementaciones, el proyecto avanza significativamente hacia un entorno funcional y centrado en el usuario, asegurando el cumplimiento de los objetivos planteados en este sprint.
+
+Enlace a la documentación de la API en Swagger:
+
+Enlace del deployment del Backend: [https://pawfectcare-dnhqhvbmbxfgcqen.eastus2-01.azurewebsites.net/swagger-ui/index.html#/](https://pawfectcare-dnhqhvbmbxfgcqen.eastus2-01.azurewebsites.net/swagger-ui/index.html#/)
+
+Enlace del deployment del FrontEnd: [https://pawfect-care-app-web.web.app](https://pawfect-care-app-web.web.app/home)
+
+Enlace del deployment de la Landing Page: [https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/](https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/)
+
+Este despliegue asegura una base sólida para el funcionamiento de PawFect Care, dejando el backend, el frontend y la landing page listos para futuras integraciones y escalabilidad conforme crezcan las necesidades del proyecto.
+
+
+**Swagger UI**
+
+<img src="./assets/Chapter05/swagger.png">
+
+
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+En el alcance del Sprint 4, el equipo de PawFect Care se centró en la integración y despliegue de los Bounded Contexts de clientes y mascotas en el backend, además de asegurar que el frontend consuma correctamente la API. Durante este sprint, se actualizó y extendió la documentación de servicios web mediante Swagger, proporcionando una guía clara y completa para el uso de la API por parte del frontend y futuros desarrolladores.
+
+La documentación incluye:
+
+Descripción detallada de los endpoints relacionados con clientes y mascotas.
+Operaciones permitidas como la creación, edición y eliminación de datos en estos módulos.
+Ejemplos actualizados de solicitudes y respuestas para garantizar una integración efectiva con el frontend.
+Información sobre las capas de seguridad y autenticación implementadas en el backend.
+Este nivel de documentación asegura que todos los miembros del equipo tengan una comprensión compartida y uniforme sobre el comportamiento y las capacidades de la API, lo que facilita el desarrollo continuo y la integración de nuevas funcionalidades.
+
+Con los Bounded Contexts documentados y plenamente funcionales, el equipo está preparado para avanzar hacia nuevas iteraciones del proyecto, enfocándose en optimizar la experiencia de usuario y mejorar las funcionalidades clave de la aplicación.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Durante este sprint, se ha completado el desarrollo del backend de la aplicación web, así como la actualización del frontend. Para el despliegue, se utilizaron las siguientes herramientas y servicios:
+
+- **Git:** Sistema de control de versiones utilizado para facilitar la colaboración entre los miembros del equipo y monitorear las versiones de la aplicación web en un repositorio remoto.
+
+- **GitFlow:** Este flujo de trabajo colaborativo nos permitió gestionar las ramas del repositorio de manera efectiva, asegurando que el desarrollo de nuevas funcionalidades se hiciera en ramas separadas y facilitando la integración al proyecto principal.
+
+- **GitHub Desktop:** Herramienta de interfaz gráfica que utilizamos para interactuar con nuestro repositorio de GitHub de manera intuitiva, simplificando la gestión de commits, ramas y pull requests.
+
+- **GitHub:** Plataforma de desarrollo colaborativo que nos proporcionó el repositorio donde almacenamos y gestionamos el código fuente de nuestro proyecto, facilitando el seguimiento de cambios y la colaboración.
+
+- **Azure Web Services:** Servicio en la nube utilizado para desplegar el backend de nuestra aplicación. Esto nos permitió implementar una infraestructura escalable y segura para la API de PawFect Care.
+
+- **PostgreSQL for Azure:** Servicio de base de datos en la nube que utilizamos para almacenar y gestionar los datos de la aplicación. Esta solución proporcionó un entorno robusto para nuestras operaciones de backend.
+
+Enlace del deployment de la Landing Page: [https://pawfectcare-dnhqhvbmbxfgcqen.eastus2-01.azurewebsites.net/swagger-ui/index.html#/](https://pawfectcare-dnhqhvbmbxfgcqen.eastus2-01.azurewebsites.net/swagger-ui/index.html#/)
+
+Enlace del deployment de el frontend : [https://pawfect-care-app-web.web.app](https://pawfect-care-app-web.web.app/home)
+
+Enlace del deployment de el backend: [https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/](https://upc-pre-si729-2402-wx51-g4-aceitunitas.github.io/-PawfectCareLanding-Page.github.io/)
+
+
+Este enfoque integral asegura que tanto el frontend como el backend de la aplicación estén correctamente implementados y funcionales, permitiendo a los usuarios finales una experiencia óptima al interactuar con PawFect Care.
+
+
+<img src="./assets/Chapter05/deploybackend.png">
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+En el Sprint 4, el equipo organizó el desarrollo del frontend y backend de la aplicación web utilizando ramas específicas para cada funcionalidad, siguiendo las convenciones de GitFlow. Este enfoque permitió a los desarrolladores trabajar de manera independiente en diferentes aspectos del proyecto, facilitando la colaboración y el mantenimiento del código.
+
+A continuación, se detallan las tareas asignadas a cada miembro del equipo, junto con las contribuciones realizadas a través de la plataforma GitHub:
+
+| Alumno                          | Actividad                                                                                                                                                                                        |  
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |  
+| **Gutierrez Garcia, Jose Eduardo**  | Desarrollo y despliegue del backend en la nube, garantizando la operatividad de la API y su integración con el frontend.                                                  |  
+| **Bastidas Bastidas, Diego Martin**  | Desarrollo del backend y soporte en la integración de datos, contribuyendo al diseño y funcionalidad de los módulos clave. |  
+| **Perez Garcia, David Alexander**   | Implementación de características tanto en el backend como en el frontend, mejorando la experiencia de usuario y asegurando la funcionalidad de la plataforma.                                         |  
+| **Chavez Uribe, Ario Joel**        | Desarrollo del frontend y diseño de la landing page, enfocándose en la usabilidad y estética para ofrecer una experiencia intuitiva.                                                                 |  
+                                                             |
+
+Este enfoque colaborativo permitió que el equipo integrara diversas perspectivas y habilidades, asegurando un progreso efectivo en el desarrollo de PawFect Care. Además, se utilizaron herramientas como GitHub para coordinar las tareas y realizar revisiones de código, fortaleciendo la calidad del producto final.
+
+A continuación, se mostrará la tabla de colaboradores en el repositorio de GitHub, con el objetivo de identificar a cada miembro del equipo.
+
+Tabla de integrantes:
+
+| Username (GitHub) | Nombre                         |
+| ----------------- | ------------------------------ |
+| ghostnotfound404  | Bastidas Bastidas, Diego Martin  |
+| feg06             | Chavez Uribe, Ario Joel  |
+| elcrackje         | Gutierrez Garcia, Jose Eduardo  |
+| davidalexd        | Perez Garcia, David Alexander   |
+
+
+A continuación se mostrarán los gráficos de insights durante el sprint:
+
+Anexo: Flujo de trabajo entre las ramas.
+
+<img src="./assets/Chapter05/gitflow4.png">
+
+Anexo: Tablas de commits en el periodo de 1 mes.
+
+<img src="./assets/Chapter05/commit4.png">
+
 ### 5.3. Validation Interviews
 #### 5.3.1. Diseño de Entrevistas
   ***Segmento 1: Médicos Veterinarios***
@@ -780,7 +925,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 **Entrevista:** 
 
-<a href = "https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EUx7FkGdfXlFub7BA-ppHLwBZgLQV6tDt1LyUZzG-bGDOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WX6I6x"> https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EUx7FkGdfXlFub7BA-ppHLwBZgLQV6tDt1LyUZzG-bGDOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WX6I6x" </a>
+[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EUx7FkGdfXlFub7BA-ppHLwBZgLQV6tDt1LyUZzG-bGDOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WX6I6x`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EUx7FkGdfXlFub7BA-ppHLwBZgLQV6tDt1LyUZzG-bGDOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WX6I6x)
 
 - **Momento en el que Inicia: 0:00 min**
 - **Duración: 7:10 min**
@@ -799,7 +944,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 **Entrevista:** 
 
-<a href = "https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EX3RCizXhMRJutn6EsuAy9IBckxpeIO2bu3eQ5yNuSqRvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xspNht">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EX3RCizXhMRJutn6EsuAy9IBckxpeIO2bu3eQ5yNuSqRvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xspNht </a>
+[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EX3RCizXhMRJutn6EsuAy9IBckxpeIO2bu3eQ5yNuSqRvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xspNht`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EX3RCizXhMRJutn6EsuAy9IBckxpeIO2bu3eQ5yNuSqRvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xspNht)
 
 - **Momento en el que Inicia: 0:00 min**
 - **Duración: 5:19 min**
@@ -818,7 +963,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 **Entrevista:** 
 
-<a href = "https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EVG2Btag0ZVHnSZkWnNPrIYBEW7RGSWmj959XB4SonNg0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xl2mXC">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EVG2Btag0ZVHnSZkWnNPrIYBEW7RGSWmj959XB4SonNg0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xl2mXC </a>
+[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EVG2Btag0ZVHnSZkWnNPrIYBEW7RGSWmj959XB4SonNg0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xl2mXC`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EVG2Btag0ZVHnSZkWnNPrIYBEW7RGSWmj959XB4SonNg0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xl2mXC)
 
 - **Momento en el que Inicia: 0:00 min**
 - **Duración: 7:45 min**
@@ -839,7 +984,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 **Entrevista:** 
 
-<a href = "https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EWO04koXWcVAs4nPzrfvTFcB8sZNHkuyGgmyve2v9Y3bCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5zSnLn">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EWO04koXWcVAs4nPzrfvTFcB8sZNHkuyGgmyve2v9Y3bCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5zSnLn </a>
+[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EWO04koXWcVAs4nPzrfvTFcB8sZNHkuyGgmyve2v9Y3bCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5zSnLn`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EWO04koXWcVAs4nPzrfvTFcB8sZNHkuyGgmyve2v9Y3bCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5zSnLn)
 
 - **Momento en el que Inicia: 0:00 min**
 - **Duración: 7:33 min**
@@ -858,7 +1003,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 **Entrevista:** 
 
-<a href = "https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Edj5SJ4zT29EjTLgcsUoObkBt5xJVe5eXwZ1aGQfNuB44w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nZAvtC"> https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Edj5SJ4zT29EjTLgcsUoObkBt5xJVe5eXwZ1aGQfNuB44w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nZAvtC </a>
+[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Edj5SJ4zT29EjTLgcsUoObkBt5xJVe5eXwZ1aGQfNuB44w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nZAvtC`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Edj5SJ4zT29EjTLgcsUoObkBt5xJVe5eXwZ1aGQfNuB44w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nZAvtC)
 
 - **Momento en el que Inicia: 0:00 min**
 - **Duración: 6:56 min**	
@@ -877,7 +1022,7 @@ Anexo: Tablas de commits en el periodo de 1 mes.
 
 **Entrevista:** 
 
-<a href = "https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/ETg4urEPd_9BjxrgUNwage8Bsi9znPbJLLwyQ1sFmCcGmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lhFfm"> https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/ETg4urEPd_9BjxrgUNwage8Bsi9znPbJLLwyQ1sFmCcGmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lhFfm </a>
+[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/ETg4urEPd_9BjxrgUNwage8Bsi9znPbJLLwyQ1sFmCcGmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lhFfm`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/ETg4urEPd_9BjxrgUNwage8Bsi9znPbJLLwyQ1sFmCcGmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lhFfm)
 
 - **Momento en el que Inicia: 0:00 min**
 - **Duración: 4:43 min**
@@ -979,7 +1124,7 @@ El video destaca las principales características de la aplicación, incluyendo:
 - **Acceso fácil al historial médico**: Los propietarios pueden revisar el historial de salud de sus mascotas de manera rápida y sencilla, asegurando que siempre tengan la información más reciente disponible.
 
 
-- [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213468_upc_edu_pe/EfYykhZYELdGmrhSNKWcMXABRwx0FC5VY1YIVwjKt1QPcA?e=WAhSOF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213468_upc_edu_pe/EfYykhZYELdGmrhSNKWcMXABRwx0FC5VY1YIVwjKt1QPcA?e=WAhSOF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- [`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213468_upc_edu_pe/EfYykhZYELdGmrhSNKWcMXABRwx0FC5VY1YIVwjKt1QPcA?e=WAhSOF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213468_upc_edu_pe/EfYykhZYELdGmrhSNKWcMXABRwx0FC5VY1YIVwjKt1QPcA?e=WAhSOF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ## Conclusiones
 
@@ -992,6 +1137,27 @@ El video destaca las principales características de la aplicación, incluyendo:
 - Pruebas con APIs simuladas. El uso de la Fake API con my-json-server.typicode ha sido esencial para simular interacciones con el backend. Esto ha facilitado las pruebas del frontend sin necesidad de un backend completamente desarrollado, asegurando una experiencia de usuario más fluida y detectando posibles mejoras en la interacción entre las interfaces.
 
 - Despliegue como hito clave. El deployment del frontend es un logro significativo, ya que representa la capacidad del equipo para trasladar el proyecto desde el entorno de desarrollo hasta un entorno accesible para los usuarios. Esto permite comenzar a probar la funcionalidad de la plataforma y recibir retroalimentación real de los usuarios
+
+- Iteración y mejora continua: El uso de metodologías ágiles, como reuniones de sprint y retrospectivas, permitió ajustar las prioridades y mejorar el flujo de trabajo durante las diferentes etapas del proyecto, asegurando que los objetivos fueran alcanzados de manera eficiente.
+
+- Uso de herramientas modernas: La integración de tecnologías como Spring Boot, PostgreSQL y despliegue en la nube demostró ser fundamental para garantizar un desarrollo robusto y una experiencia de usuario estable, marcando un estándar técnico alto para el proyecto.
+
+- Colaboración interdisciplinaria: La interacción constante entre los responsables del backend, frontend y despliegue en la nube aseguró que los módulos del sistema fueran compatibles y funcionales, resolviendo posibles conflictos antes de avanzar a nuevas etapas.
+
+- Gestión efectiva del repositorio: La adopción de convenciones claras para commits y la organización del repositorio en GitHub facilitaron el seguimiento de los avances y aseguraron un control de versiones eficiente para todo el equipo.
+
+- Enfoque en la experiencia del usuario: Los esfuerzos en el diseño UI/UX, junto con las pruebas con APIs simuladas, permitieron desarrollar una plataforma intuitiva y atractiva para los usuarios finales, aumentando su satisfacción y usabilidad.
+
+
+## Video About-the-Team
+
+En este video, tenemos el honor de presentarles a nuestro equipo y detallar cómo colaboramos a lo largo del ciclo de desarrollo de nuestro proyecto. Cada miembro de nuestro grupo contribuye con una serie de habilidades y experiencias que enriquecen nuestra dinámica de trabajo. Durante el video, cada integrante compartirá su rol específico, así como las metodologías y herramientas que utilizamos para garantizar una comunicación efectiva y un desarrollo eficiente. Nos esforzamos por fomentar un ambiente de colaboración que nos permita enfrentar desafíos y alcanzar nuestros objetivos de manera conjunta. Agradecemos su atención y esperamos que este video les proporcione una visión clara de nuestro proceso de trabajo en equipo
+
+Enlace Video About the team:<br>
+[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EVCOEDL7bjNBm7VWkDIlNXkBe9T_50zUyvkuH-lE-G9l4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=2CKjXt`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EVCOEDL7bjNBm7VWkDIlNXkBe9T_50zUyvkuH-lE-G9l4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=2CKjXt)
+
+
+<img src="./assets/Chapter05/abouttheteam.png">
 
 ## Bibliografía
 
@@ -1008,41 +1174,41 @@ El video destaca las principales características de la aplicación, incluyendo:
 **Entrevias de Needfinding**
 
 Entrevistas Médicos Veterinarios:<br>
-- [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EQ-ZYy2RvYpNgt1Qfy9tHTUByB1wTz3kGVrQscVWHWam9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=j1mdQ7](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EQ-ZYy2RvYpNgt1Qfy9tHTUByB1wTz3kGVrQscVWHWam9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=j1mdQ7)
+- [`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EQ-ZYy2RvYpNgt1Qfy9tHTUByB1wTz3kGVrQscVWHWam9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=j1mdQ7`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EQ-ZYy2RvYpNgt1Qfy9tHTUByB1wTz3kGVrQscVWHWam9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=j1mdQ7)
 
-- [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EbCW9J6OzTFKoDAHzGbfWzEBpDcpUG7M16WiUuDkC7iPMA](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EbCW9J6OzTFKoDAHzGbfWzEBpDcpUG7M16WiUuDkC7iPMA)
+- [`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EbCW9J6OzTFKoDAHzGbfWzEBpDcpUG7M16WiUuDkC7iPMA`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EbCW9J6OzTFKoDAHzGbfWzEBpDcpUG7M16WiUuDkC7iPMA)
 
-- [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EYY7QpIHFxlDh0ksAmySO-kB1yHNDLGTJPHi61WTR0jlWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JeOE4m](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EYY7QpIHFxlDh0ksAmySO-kB1yHNDLGTJPHi61WTR0jlWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JeOE4m)
+- [`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EYY7QpIHFxlDh0ksAmySO-kB1yHNDLGTJPHi61WTR0jlWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JeOE4m`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EYY7QpIHFxlDh0ksAmySO-kB1yHNDLGTJPHi61WTR0jlWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JeOE4m)
 
 Entrevistas Dueños de Mascotas:<br>
 
-- [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Ec1XInM48xNOvR2jbzHkwuABf9CG5aosdZClZOwqh0nyYw](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Ec1XInM48xNOvR2jbzHkwuABf9CG5aosdZClZOwqh0nyYw)
+- `[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Ec1XInM48xNOvR2jbzHkwuABf9CG5aosdZClZOwqh0nyYw`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Ec1XInM48xNOvR2jbzHkwuABf9CG5aosdZClZOwqh0nyYw)
 
-- [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EQxyGm-xOy9Gixk9iwdU5-4B7_sjaOllyMTn6QX3f6py1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aOWtoD](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EQxyGm-xOy9Gixk9iwdU5-4B7_sjaOllyMTn6QX3f6py1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aOWtoD)
+- [`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EQxyGm-xOy9Gixk9iwdU5-4B7_sjaOllyMTn6QX3f6py1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aOWtoD`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EQxyGm-xOy9Gixk9iwdU5-4B7_sjaOllyMTn6QX3f6py1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aOWtoD)
 
-- [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EZguwL4OXjdNkBzBDBzk7_IBxOR3aJXNCJtxhTOVihRx2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YgjxMN](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EZguwL4OXjdNkBzBDBzk7_IBxOR3aJXNCJtxhTOVihRx2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YgjxMN)
+- [`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EZguwL4OXjdNkBzBDBzk7_IBxOR3aJXNCJtxhTOVihRx2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YgjxMN`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EZguwL4OXjdNkBzBDBzk7_IBxOR3aJXNCJtxhTOVihRx2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YgjxMN)
 
 
 Video de muestra del prototipo:<br>
-- [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/EQvCW-J5AvNMp7V0LnzxwWgB1LRddvYi7j22x7tsRPO17g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hd15Xj](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/EQvCW-J5AvNMp7V0LnzxwWgB1LRddvYi7j22x7tsRPO17g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hd15Xj)
+- [`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/EQvCW-J5AvNMp7V0LnzxwWgB1LRddvYi7j22x7tsRPO17g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hd15Xj`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/EQvCW-J5AvNMp7V0LnzxwWgB1LRddvYi7j22x7tsRPO17g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hd15Xj)
 
 **Anexo 2:**
 **Entrevistas de validacion**
 
 Entrevistas Médicos Veterinarios:<br>
--[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EUx7FkGdfXlFub7BA-ppHLwBZgLQV6tDt1LyUZzG-bGDOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WX6I6x](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EUx7FkGdfXlFub7BA-ppHLwBZgLQV6tDt1LyUZzG-bGDOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WX6I6x)
+-[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EUx7FkGdfXlFub7BA-ppHLwBZgLQV6tDt1LyUZzG-bGDOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WX6I6x`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EUx7FkGdfXlFub7BA-ppHLwBZgLQV6tDt1LyUZzG-bGDOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WX6I6x)
 
--[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EX3RCizXhMRJutn6EsuAy9IBckxpeIO2bu3eQ5yNuSqRvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xspNht](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EX3RCizXhMRJutn6EsuAy9IBckxpeIO2bu3eQ5yNuSqRvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xspNht)
+-[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EX3RCizXhMRJutn6EsuAy9IBckxpeIO2bu3eQ5yNuSqRvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xspNht`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EX3RCizXhMRJutn6EsuAy9IBckxpeIO2bu3eQ5yNuSqRvw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xspNht)
 
--[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EVG2Btag0ZVHnSZkWnNPrIYBEW7RGSWmj959XB4SonNg0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xl2mXC](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EVG2Btag0ZVHnSZkWnNPrIYBEW7RGSWmj959XB4SonNg0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xl2mXC)
+-[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EVG2Btag0ZVHnSZkWnNPrIYBEW7RGSWmj959XB4SonNg0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xl2mXC`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EVG2Btag0ZVHnSZkWnNPrIYBEW7RGSWmj959XB4SonNg0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xl2mXC)
 
 Entrevistas Dueños de Mascotas:<br>
 
--[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EWO04koXWcVAs4nPzrfvTFcB8sZNHkuyGgmyve2v9Y3bCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5zSnLn](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EWO04koXWcVAs4nPzrfvTFcB8sZNHkuyGgmyve2v9Y3bCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5zSnLn)
+-[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EWO04koXWcVAs4nPzrfvTFcB8sZNHkuyGgmyve2v9Y3bCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5zSnLn`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EWO04koXWcVAs4nPzrfvTFcB8sZNHkuyGgmyve2v9Y3bCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5zSnLn)
 
--[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EWO04koXWcVAs4nPzrfvTFcB8sZNHkuyGgmyve2v9Y3bCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5zSnLn](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EWO04koXWcVAs4nPzrfvTFcB8sZNHkuyGgmyve2v9Y3bCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5zSnLn)
+-[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EWO04koXWcVAs4nPzrfvTFcB8sZNHkuyGgmyve2v9Y3bCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5zSnLn`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EWO04koXWcVAs4nPzrfvTFcB8sZNHkuyGgmyve2v9Y3bCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5zSnLn)
 
--[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Edj5SJ4zT29EjTLgcsUoObkBt5xJVe5eXwZ1aGQfNuB44w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nZAvtC](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Edj5SJ4zT29EjTLgcsUoObkBt5xJVe5eXwZ1aGQfNuB44w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nZAvtC)
+-[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Edj5SJ4zT29EjTLgcsUoObkBt5xJVe5eXwZ1aGQfNuB44w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nZAvtC`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Edj5SJ4zT29EjTLgcsUoObkBt5xJVe5eXwZ1aGQfNuB44w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nZAvtC)
 
 **Anexo 3:**
 
@@ -1059,6 +1225,9 @@ Presentación del Proyecto tp:<br>
 [https://www.canva.com/design/DAGSA0STNYI/ULixcO6N5Q5XX9MRRc3CLw/edit?utm_content=DAGSA0STNYI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGSA0STNYI/ULixcO6N5Q5XX9MRRc3CLw/edit?utm_content=DAGSA0STNYI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 Presentación del Proyecto tb2:<br>
+[https://www.canva.com/design/DAGSA0STNYI/ULixcO6N5Q5XX9MRRc3CLw/edit](https://www.canva.com/design/DAGSA0STNYI/ULixcO6N5Q5XX9MRRc3CLw/edit)
+
+Presentación del Proyecto tf:<br>
 [https://www.canva.com/design/DAGSA0STNYI/ULixcO6N5Q5XX9MRRc3CLw/edit](https://www.canva.com/design/DAGSA0STNYI/ULixcO6N5Q5XX9MRRc3CLw/edit)
 
 **Anexo 5:**
@@ -1102,18 +1271,16 @@ Deployments:<br>
 
 **Anexo 13:**
 Enlace Video Expoción:<br>
-- **TB1 :** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EYmCGW8DnQxHnaPzTOF4P5wBTMIL-5vqQwPFfK5kziwssQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hj42p4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EYmCGW8DnQxHnaPzTOF4P5wBTMIL-5vqQwPFfK5kziwssQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hj42p4)
+- **TB1 :** [`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EYmCGW8DnQxHnaPzTOF4P5wBTMIL-5vqQwPFfK5kziwssQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hj42p4`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EYmCGW8DnQxHnaPzTOF4P5wBTMIL-5vqQwPFfK5kziwssQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hj42p4)
 
-- **TB2 :** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EXzNtJKTYtRMuHmwI9Yi4-0BWfWBAUgfzFDRq24_MQ2nQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jXlPn3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EXzNtJKTYtRMuHmwI9Yi4-0BWfWBAUgfzFDRq24_MQ2nQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jXlPn3)
+- **TB2 :** [`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EXzNtJKTYtRMuHmwI9Yi4-0BWfWBAUgfzFDRq24_MQ2nQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jXlPn3`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EXzNtJKTYtRMuHmwI9Yi4-0BWfWBAUgfzFDRq24_MQ2nQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jXlPn3)
 
 **Anexo 14:**
 Enlace Video About the team:<br>
-[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EVCOEDL7bjNBm7VWkDIlNXkBe9T_50zUyvkuH-lE-G9l4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=2CKjXt](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EVCOEDL7bjNBm7VWkDIlNXkBe9T_50zUyvkuH-lE-G9l4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=2CKjXt)
+[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EVCOEDL7bjNBm7VWkDIlNXkBe9T_50zUyvkuH-lE-G9l4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=2CKjXt`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EVCOEDL7bjNBm7VWkDIlNXkBe9T_50zUyvkuH-lE-G9l4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=2CKjXt)
 
 **Anexo 15:**
 Enlace Video About the product:<br>
-[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213468_upc_edu_pe/EfYykhZYELdGmrhSNKWcMXABRwx0FC5VY1YIVwjKt1QPcA?e=WAhSOF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213468_upc_edu_pe/EfYykhZYELdGmrhSNKWcMXABRwx0FC5VY1YIVwjKt1QPcA?e=WAhSOF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
----
+[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213468_upc_edu_pe/EfYykhZYELdGmrhSNKWcMXABRwx0FC5VY1YIVwjKt1QPcA?e=WAhSOF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213468_upc_edu_pe/EfYykhZYELdGmrhSNKWcMXABRwx0FC5VY1YIVwjKt1QPcA?e=WAhSOF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ---
